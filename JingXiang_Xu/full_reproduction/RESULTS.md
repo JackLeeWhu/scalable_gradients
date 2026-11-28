@@ -51,6 +51,8 @@ The local `±` values are **95% t half-widths over 50 Monte Carlo forecast draws
 
 The initial implementation does not reach the paper's Table 2 performance. Its observation variance expands while the forecast mean stays near zero. Fixing the variance improves the fit, but long-horizon errors remain substantial: the time-input model's test MSE rises from **11.38** over frames 3–49 to **35.65** over frames 200–299. Its decoder output then becomes nearly constant. The no-time model retains a periodic forecast but still has a **21.92** MSE over frames 200–299. See [MOCAP_AUDIT.md](MOCAP_AUDIT.md) for the parameter-count discrepancy, controlled tests, and mechanism checks.
 
+The corrected learnable log-variance model has **not** completed the full 300-frame, 400-iteration protocol. Thus none of our rows is a numerically faithful reconstruction of the published latent SDE; the remaining full-length run and validation-based KL grid are required before making a stronger Table 2 claim.
+
 [Initial forecast](outputs/mocap_full_400/mocap_prediction_posterior.png) · [time-input diagnostic](outputs/mocap_diagnostics/fixedstd1_full300/mocap_prediction_posterior.png) · [no-time diagnostic](outputs/mocap_diagnostics/fixedstd1_no_time_full300/mocap_prediction_posterior.png) · [framewise error](outputs/mocap_diagnostics/fixedstd1_full300/mocap_error_by_frame_posterior.png).
 
 ## Conclusion
