@@ -1,0 +1,19 @@
+{
+  "test_mse": 32.6912841796875,
+  "mc_95_percent_t_interval": [
+    32.680524351608355,
+    32.702044007766645
+  ],
+  "mc_interval_half_width": 0.010759828079147335,
+  "samples": 50,
+  "drift_used_for_forecast": "posterior",
+  "test_sequences": 4,
+  "forecast_frames": 297,
+  "coordinates": 50,
+  "constant_last_observation_mse": 61.33024978637695,
+  "zero_prediction_mse": 33.67472457885742,
+  "paper_latent_sde_mse": 4.03,
+  "paper_reported_95_percent_half_width": 0.2,
+  "interval_note": "This t interval quantifies only Monte Carlo prediction-draw uncertainty at a fixed checkpoint and test set. The paper does not fully specify its interval unit; do not claim identical confidence-interval construction.",
+  "implementation_note": "Approximate architecture (11845 vs paper 11605 parameters), zero-drift initialization, chosen KL weight 0.1 and posterior-validation checkpoint selection. The paper does not release evaluation code clarifying drift choice; this is not an exact numerical replication."
+}

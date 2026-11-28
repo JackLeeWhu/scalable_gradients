@@ -1,0 +1,61 @@
+{
+  "seed": 5600,
+  "gbm": {
+    "shape": [
+      1024,
+      51,
+      1
+    ],
+    "observations_dt": 0.02,
+    "mu": 1.0,
+    "sigma": 0.5,
+    "x0_mean": 0.1,
+    "x0_std": 0.03,
+    "observation_noise_std": 0.01,
+    "solver": "exact GBM"
+  },
+  "lorenz": {
+    "shape": [
+      1024,
+      41,
+      3
+    ],
+    "observations_dt": 0.025,
+    "sigma_rho_beta": [
+      10,
+      28,
+      2.6666666666666665
+    ],
+    "diffusion": [
+      0.15,
+      0.15,
+      0.15
+    ],
+    "observation_noise_std": 0.01,
+    "solver": "Euler-Maruyama",
+    "internal_dt": 0.005
+  },
+  "mocap": {
+    "file": "data/mocap35.mat",
+    "sha256": "105484f138487f10209cce883d26e2e030d10a6df6f10159f4e6e253f9b03b8d",
+    "source": "ODE2VAE authors' public Google Drive folder",
+    "source_file_id": "1adqzHEXaGDVObSKbJgT5HBdoZkeMZ8S3",
+    "shapes": {
+      "Xtr": [
+        16,
+        300,
+        50
+      ],
+      "Xval": [
+        3,
+        300,
+        50
+      ],
+      "Xtest": [
+        4,
+        300,
+        50
+      ]
+    }
+  }
+}

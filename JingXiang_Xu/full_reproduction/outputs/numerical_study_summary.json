@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "steps": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "seeds": 64,
+    "batch": 16,
+    "dim": 10,
+    "method": "milstein",
+    "output_dir": "/Users/binbin2/Library/CloudStorage/OneDrive-CornellUniversity/Cornell/courses/ORIE 5600/project/ORIE5600_GBM_project/JingXiang_Xu/full_reproduction/outputs"
+  },
+  "summaries": {
+    "backprop": {
+      "median_rmse": [
+        0.0063913611345707165,
+        0.003217086643674487,
+        0.0016127259165608318,
+        0.0007532176528385169
+      ],
+      "median_mse": [
+        4.0849696712430994e-05,
+        1.0350737186750028e-05,
+        2.6021871184319355e-06,
+        5.673486737837656e-07
+      ]
+    },
+    "adjoint": {
+      "median_rmse": [
+        0.0013742421686828224,
+        0.0006533649991830089,
+        0.00034501895778870544,
+        0.00015811775280188449
+      ],
+      "median_mse": [
+        1.888865574479635e-06,
+        4.269423177163047e-07,
+        1.190494185749411e-07,
+        2.50044518998509e-08
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "fixed_seeds": 8,
+    "adaptive_seeds": 3,
+    "batch": 16,
+    "dim": 10,
+    "output_dir": "/Users/binbin2/Library/CloudStorage/OneDrive-CornellUniversity/Cornell/courses/ORIE 5600/project/ORIE5600_GBM_project/JingXiang_Xu/full_reproduction/outputs"
+  },
+  "summary": {
+    "example1_backprop_median_mse": [
+      0.0008869150751767576,
+      0.0002495157811731813,
+      6.488408263274725e-05,
+      1.7679974341559367e-05
+    ],
+    "example1_adjoint_median_mse": [
+      0.0003725363610793213,
+      9.790703669586997e-05,
+      2.5772212538157155e-05,
+      6.976671177849383e-06
+    ],
+    "example1_Euler BP_median_cpu_seconds": 0.06904200000000005,
+    "example1_Milstein BP_median_cpu_seconds": 0.00858749999999997,
+    "example1_Milstein adjoint_median_cpu_seconds": 0.03645849999999973,
+    "example3_backprop_median_mse": [
+      8.219683047322789e-05,
+      1.999171660934887e-05,
+      4.927461992803681e-06,
+      1.2241107834294458e-06
+    ],
+    "example3_adjoint_median_mse": [
+      5.479934622142717e-07,
+      1.47452657467324e-07,
+      3.687985997639649e-08,
+      9.3687287027443e-09
+    ],
+    "example3_Euler BP_median_cpu_seconds": 0.07570999999999994,
+    "example3_Milstein BP_median_cpu_seconds": 0.009225999999999956,
+    "example3_Milstein adjoint_median_cpu_seconds": 0.03369350000000093
+  },
+  "note": "Independent loss, seeds and solver settings; Example 1 uses the corrected exact solution for the printed SDE."
+}

@@ -1,0 +1,233 @@
+{
+  "settings": {
+    "iterations": 400,
+    "frames": 300,
+    "observation_dt": 0.1,
+    "dt": 0.02,
+    "kl_weight": 0.1,
+    "seed": 5600,
+    "adjoint": true,
+    "eval_samples": 50,
+    "device": "cpu",
+    "output_dir": "project/ORIE5600_GBM_project/JingXiang_Xu/full_reproduction/outputs/mocap_full_400"
+  },
+  "parameter_count": 11845,
+  "best_validation_mse": 31.270902633666992,
+  "test_mse": 32.69718933105469,
+  "constant_last_observation_test_mse": 61.33024978637695,
+  "paper_full_300_frame_mse": 4.03,
+  "history": [
+    {
+      "step": 1,
+      "train_elbo_loss": 366198.78125,
+      "validation_mse": 32.40998458862305
+    },
+    {
+      "step": 10,
+      "train_elbo_loss": 30689.6015625,
+      "validation_mse": 31.910478591918945
+    },
+    {
+      "step": 20,
+      "train_elbo_loss": 27475.6015625,
+      "validation_mse": 31.91489028930664
+    },
+    {
+      "step": 30,
+      "train_elbo_loss": 26727.349609375,
+      "validation_mse": 31.878644943237305
+    },
+    {
+      "step": 40,
+      "train_elbo_loss": 26700.14453125,
+      "validation_mse": 31.868749618530273
+    },
+    {
+      "step": 50,
+      "train_elbo_loss": 26143.68359375,
+      "validation_mse": 31.865121841430664
+    },
+    {
+      "step": 60,
+      "train_elbo_loss": 25305.587890625,
+      "validation_mse": 31.86338233947754
+    },
+    {
+      "step": 70,
+      "train_elbo_loss": 25070.392578125,
+      "validation_mse": 31.8627872467041
+    },
+    {
+      "step": 80,
+      "train_elbo_loss": 26077.7421875,
+      "validation_mse": 31.860721588134766
+    },
+    {
+      "step": 90,
+      "train_elbo_loss": 27135.6015625,
+      "validation_mse": 31.860538482666016
+    },
+    {
+      "step": 100,
+      "train_elbo_loss": 25428.0546875,
+      "validation_mse": 31.859970092773438
+    },
+    {
+      "step": 110,
+      "train_elbo_loss": 25438.8828125,
+      "validation_mse": 31.859413146972656
+    },
+    {
+      "step": 120,
+      "train_elbo_loss": 25091.8828125,
+      "validation_mse": 31.858121871948242
+    },
+    {
+      "step": 130,
+      "train_elbo_loss": 24279.5546875,
+      "validation_mse": 31.858016967773438
+    },
+    {
+      "step": 140,
+      "train_elbo_loss": 24000.369140625,
+      "validation_mse": 31.855663299560547
+    },
+    {
+      "step": 150,
+      "train_elbo_loss": 24178.333984375,
+      "validation_mse": 31.853670120239258
+    },
+    {
+      "step": 160,
+      "train_elbo_loss": 23977.041015625,
+      "validation_mse": 31.85040855407715
+    },
+    {
+      "step": 170,
+      "train_elbo_loss": 24242.54296875,
+      "validation_mse": 31.846569061279297
+    },
+    {
+      "step": 180,
+      "train_elbo_loss": 23991.89453125,
+      "validation_mse": 31.841676712036133
+    },
+    {
+      "step": 190,
+      "train_elbo_loss": 23748.75,
+      "validation_mse": 31.834983825683594
+    },
+    {
+      "step": 200,
+      "train_elbo_loss": 23743.291015625,
+      "validation_mse": 31.82453727722168
+    },
+    {
+      "step": 210,
+      "train_elbo_loss": 24282.400390625,
+      "validation_mse": 31.82514762878418
+    },
+    {
+      "step": 220,
+      "train_elbo_loss": 23824.591796875,
+      "validation_mse": 31.8197078704834
+    },
+    {
+      "step": 230,
+      "train_elbo_loss": 23589.193359375,
+      "validation_mse": 31.82254409790039
+    },
+    {
+      "step": 240,
+      "train_elbo_loss": 24326.927734375,
+      "validation_mse": 31.83176612854004
+    },
+    {
+      "step": 250,
+      "train_elbo_loss": 23791.615234375,
+      "validation_mse": 31.82166862487793
+    },
+    {
+      "step": 260,
+      "train_elbo_loss": 23652.07421875,
+      "validation_mse": 31.83390235900879
+    },
+    {
+      "step": 270,
+      "train_elbo_loss": 25713.259765625,
+      "validation_mse": 31.933191299438477
+    },
+    {
+      "step": 280,
+      "train_elbo_loss": 24448.83984375,
+      "validation_mse": 31.876697540283203
+    },
+    {
+      "step": 290,
+      "train_elbo_loss": 24031.80078125,
+      "validation_mse": 31.83129119873047
+    },
+    {
+      "step": 300,
+      "train_elbo_loss": 23606.1640625,
+      "validation_mse": 31.76819610595703
+    },
+    {
+      "step": 310,
+      "train_elbo_loss": 23465.953125,
+      "validation_mse": 31.76766586303711
+    },
+    {
+      "step": 320,
+      "train_elbo_loss": 23319.021484375,
+      "validation_mse": 31.7335205078125
+    },
+    {
+      "step": 330,
+      "train_elbo_loss": 23707.89453125,
+      "validation_mse": 31.655866622924805
+    },
+    {
+      "step": 340,
+      "train_elbo_loss": 23282.509765625,
+      "validation_mse": 31.58852195739746
+    },
+    {
+      "step": 350,
+      "train_elbo_loss": 23491.05859375,
+      "validation_mse": 31.60586166381836
+    },
+    {
+      "step": 360,
+      "train_elbo_loss": 23137.328125,
+      "validation_mse": 31.49371910095215
+    },
+    {
+      "step": 370,
+      "train_elbo_loss": 23002.4921875,
+      "validation_mse": 31.458608627319336
+    },
+    {
+      "step": 380,
+      "train_elbo_loss": 22952.42578125,
+      "validation_mse": 31.387866973876953
+    },
+    {
+      "step": 390,
+      "train_elbo_loss": 23071.37109375,
+      "validation_mse": 31.270902633666992
+    },
+    {
+      "step": 400,
+      "train_elbo_loss": 23443.626953125,
+      "validation_mse": 31.483882904052734
+    }
+  ],
+  "matches_paper_evaluation_length_and_samples": true,
+  "strict_replication_of_paper_implementation": false,
+  "known_differences": [
+    "The explicit time inputs shown in Appendix Figure 10 add 240 weights, yielding 11845 instead of the paper-reported 11605 parameters.",
+    "The exact selected KL coefficient and some implementation choices were not published.",
+    "Zero drift-layer initialization was added to avoid path-KL overflow."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "lorenz",
+  "context_dim": 3,
+  "training_paths_checked": 16,
+  "posterior_mean_train_mse": 0.0010096639925905038,
+  "empirical_data_terminal_variance": [
+    0.6848715543746948,
+    0.47267740964889526,
+    0.01248167548328638
+  ],
+  "learned_prior_terminal_variance_independent_z0": [
+    0.3779349625110626,
+    0.1747921258211136,
+    0.012402519583702087
+  ],
+  "learned_prior_terminal_variance_fixed_z0": [
+    0.004756369162350893,
+    0.003641038201749325,
+    0.0034449200611561537
+  ],
+  "note": "These are descriptive diagnostics on training paths, not held-out generalization metrics."
+}

@@ -1,0 +1,2102 @@
+[
+  {
+    "step": 1,
+    "loss": 1061529.5,
+    "negative_log_likelihood": 1061529.5,
+    "initial_kl": 1.220674991607666,
+    "path_kl": 1.1486737728118896
+  },
+  {
+    "step": 2,
+    "loss": 944511.125,
+    "negative_log_likelihood": 944509.5,
+    "initial_kl": 1.4887585639953613,
+    "path_kl": 39.01177215576172
+  },
+  {
+    "step": 3,
+    "loss": 838851.625,
+    "negative_log_likelihood": 838850.5,
+    "initial_kl": 1.2354768514633179,
+    "path_kl": 17.74619483947754
+  },
+  {
+    "step": 4,
+    "loss": 766495.0,
+    "negative_log_likelihood": 766458.25,
+    "initial_kl": 1.195508360862732,
+    "path_kl": 458.4459228515625
+  },
+  {
+    "step": 5,
+    "loss": 733396.4375,
+    "negative_log_likelihood": 733293.0,
+    "initial_kl": 1.3738735914230347,
+    "path_kl": 1032.8387451171875
+  },
+  {
+    "step": 6,
+    "loss": 670231.6875,
+    "negative_log_likelihood": 669960.4375,
+    "initial_kl": 2.064311981201172,
+    "path_kl": 2258.43798828125
+  },
+  {
+    "step": 7,
+    "loss": 695837.1875,
+    "negative_log_likelihood": 691776.5,
+    "initial_kl": 1.7289040088653564,
+    "path_kl": 29003.140625
+  },
+  {
+    "step": 8,
+    "loss": 664185.875,
+    "negative_log_likelihood": 663301.6875,
+    "initial_kl": 1.528428077697754,
+    "path_kl": 5524.828125
+  },
+  {
+    "step": 9,
+    "loss": 643011.375,
+    "negative_log_likelihood": 642169.5625,
+    "initial_kl": 1.282891035079956,
+    "path_kl": 4675.60400390625
+  },
+  {
+    "step": 10,
+    "loss": 618240.625,
+    "negative_log_likelihood": 617584.0625,
+    "initial_kl": 1.1045806407928467,
+    "path_kl": 3281.60009765625
+  },
+  {
+    "step": 11,
+    "loss": 626693.75,
+    "negative_log_likelihood": 626002.6875,
+    "initial_kl": 1.0078315734863281,
+    "path_kl": 3140.287109375
+  },
+  {
+    "step": 12,
+    "loss": 605079.6875,
+    "negative_log_likelihood": 604556.625,
+    "initial_kl": 0.9835164546966553,
+    "path_kl": 2178.515625
+  },
+  {
+    "step": 13,
+    "loss": 611012.625,
+    "negative_log_likelihood": 610269.8125,
+    "initial_kl": 0.9869403839111328,
+    "path_kl": 2855.900390625
+  },
+  {
+    "step": 14,
+    "loss": 576652.3125,
+    "negative_log_likelihood": 576293.0,
+    "initial_kl": 1.0909188985824585,
+    "path_kl": 1282.1324462890625
+  },
+  {
+    "step": 15,
+    "loss": 577984.4375,
+    "negative_log_likelihood": 577576.75,
+    "initial_kl": 1.3716161251068115,
+    "path_kl": 1357.55810546875
+  },
+  {
+    "step": 16,
+    "loss": 565039.3125,
+    "negative_log_likelihood": 564443.875,
+    "initial_kl": 2.1114652156829834,
+    "path_kl": 1858.637451171875
+  },
+  {
+    "step": 17,
+    "loss": 560098.875,
+    "negative_log_likelihood": 558869.6875,
+    "initial_kl": 3.6931846141815186,
+    "path_kl": 3611.48486328125
+  },
+  {
+    "step": 18,
+    "loss": 556310.3125,
+    "negative_log_likelihood": 555115.875,
+    "initial_kl": 8.807872772216797,
+    "path_kl": 3309.03271484375
+  },
+  {
+    "step": 19,
+    "loss": 538999.4375,
+    "negative_log_likelihood": 538499.25,
+    "initial_kl": 5.4273481369018555,
+    "path_kl": 1310.820556640625
+  },
+  {
+    "step": 20,
+    "loss": 517202.71875,
+    "negative_log_likelihood": 516717.875,
+    "initial_kl": 5.950133323669434,
+    "path_kl": 1206.1890869140625
+  },
+  {
+    "step": 21,
+    "loss": 507328.8125,
+    "negative_log_likelihood": 507039.1875,
+    "initial_kl": 7.868334770202637,
+    "path_kl": 681.74365234375
+  },
+  {
+    "step": 22,
+    "loss": 501148.03125,
+    "negative_log_likelihood": 500949.65625,
+    "initial_kl": 10.316115379333496,
+    "path_kl": 440.54583740234375
+  },
+  {
+    "step": 23,
+    "loss": 490768.53125,
+    "negative_log_likelihood": 490564.0625,
+    "initial_kl": 12.100658416748047,
+    "path_kl": 432.40325927734375
+  },
+  {
+    "step": 24,
+    "loss": 475422.0,
+    "negative_log_likelihood": 475158.125,
+    "initial_kl": 14.352252960205078,
+    "path_kl": 535.4057006835938
+  },
+  {
+    "step": 25,
+    "loss": 468835.46875,
+    "negative_log_likelihood": 468361.875,
+    "initial_kl": 15.282648086547852,
+    "path_kl": 931.9129638671875
+  },
+  {
+    "step": 26,
+    "loss": 455552.03125,
+    "negative_log_likelihood": 455303.6875,
+    "initial_kl": 23.171520233154297,
+    "path_kl": 454.404541015625
+  },
+  {
+    "step": 27,
+    "loss": 450354.59375,
+    "negative_log_likelihood": 450039.8125,
+    "initial_kl": 25.638465881347656,
+    "path_kl": 557.3076171875
+  },
+  {
+    "step": 28,
+    "loss": 412481.3125,
+    "negative_log_likelihood": 412068.25,
+    "initial_kl": 25.081497192382812,
+    "path_kl": 712.5026245117188
+  },
+  {
+    "step": 29,
+    "loss": 375912.84375,
+    "negative_log_likelihood": 375334.125,
+    "initial_kl": 21.95592498779297,
+    "path_kl": 975.8226928710938
+  },
+  {
+    "step": 30,
+    "loss": 397567.21875,
+    "negative_log_likelihood": 395155.3125,
+    "initial_kl": 22.175580978393555,
+    "path_kl": 3997.690673828125
+  },
+  {
+    "step": 31,
+    "loss": 351062.125,
+    "negative_log_likelihood": 350390.0,
+    "initial_kl": 23.925329208374023,
+    "path_kl": 1060.1513671875
+  },
+  {
+    "step": 32,
+    "loss": 338068.3125,
+    "negative_log_likelihood": 337133.34375,
+    "initial_kl": 21.538528442382812,
+    "path_kl": 1439.3555908203125
+  },
+  {
+    "step": 33,
+    "loss": 328338.65625,
+    "negative_log_likelihood": 326994.625,
+    "initial_kl": 22.29376220703125,
+    "path_kl": 2014.118408203125
+  },
+  {
+    "step": 34,
+    "loss": 304812.46875,
+    "negative_log_likelihood": 303493.375,
+    "initial_kl": 19.64986801147461,
+    "path_kl": 1920.1937255859375
+  },
+  {
+    "step": 35,
+    "loss": 309220.84375,
+    "negative_log_likelihood": 307666.46875,
+    "initial_kl": 20.287446975708008,
+    "path_kl": 2200.249755859375
+  },
+  {
+    "step": 36,
+    "loss": 298079.625,
+    "negative_log_likelihood": 296670.4375,
+    "initial_kl": 17.52246856689453,
+    "path_kl": 1939.66748046875
+  },
+  {
+    "step": 37,
+    "loss": 281006.40625,
+    "negative_log_likelihood": 279790.78125,
+    "initial_kl": 15.882441520690918,
+    "path_kl": 1626.8701171875
+  },
+  {
+    "step": 38,
+    "loss": 280438.75,
+    "negative_log_likelihood": 279277.84375,
+    "initial_kl": 15.027737617492676,
+    "path_kl": 1512.465087890625
+  },
+  {
+    "step": 39,
+    "loss": 276292.21875,
+    "negative_log_likelihood": 275191.78125,
+    "initial_kl": 14.30919075012207,
+    "path_kl": 1396.4896240234375
+  },
+  {
+    "step": 40,
+    "loss": 265713.78125,
+    "negative_log_likelihood": 264541.0625,
+    "initial_kl": 12.663060188293457,
+    "path_kl": 1453.2252197265625
+  },
+  {
+    "step": 41,
+    "loss": 249137.703125,
+    "negative_log_likelihood": 247939.578125,
+    "initial_kl": 11.165651321411133,
+    "path_kl": 1449.9583740234375
+  },
+  {
+    "step": 42,
+    "loss": 242819.03125,
+    "negative_log_likelihood": 241361.375,
+    "initial_kl": 14.293889999389648,
+    "path_kl": 1721.02001953125
+  },
+  {
+    "step": 43,
+    "loss": 236290.8125,
+    "negative_log_likelihood": 234520.34375,
+    "initial_kl": 14.504450798034668,
+    "path_kl": 2044.185546875
+  },
+  {
+    "step": 44,
+    "loss": 220818.9375,
+    "negative_log_likelihood": 219327.5,
+    "initial_kl": 16.601367950439453,
+    "path_kl": 1678.2132568359375
+  },
+  {
+    "step": 45,
+    "loss": 215828.140625,
+    "negative_log_likelihood": 214597.28125,
+    "initial_kl": 16.600162506103516,
+    "path_kl": 1351.02001953125
+  },
+  {
+    "step": 46,
+    "loss": 205492.765625,
+    "negative_log_likelihood": 204365.09375,
+    "initial_kl": 17.92653465270996,
+    "path_kl": 1207.802734375
+  },
+  {
+    "step": 47,
+    "loss": 200491.6875,
+    "negative_log_likelihood": 199322.90625,
+    "initial_kl": 15.77230167388916,
+    "path_kl": 1227.609375
+  },
+  {
+    "step": 48,
+    "loss": 192130.6875,
+    "negative_log_likelihood": 190928.546875,
+    "initial_kl": 15.989724159240723,
+    "path_kl": 1236.2464599609375
+  },
+  {
+    "step": 49,
+    "loss": 187013.203125,
+    "negative_log_likelihood": 185678.6875,
+    "initial_kl": 15.703048706054688,
+    "path_kl": 1346.0450439453125
+  },
+  {
+    "step": 50,
+    "loss": 167001.125,
+    "negative_log_likelihood": 165445.203125,
+    "initial_kl": 15.551713943481445,
+    "path_kl": 1540.373779296875
+  },
+  {
+    "step": 51,
+    "loss": 164370.328125,
+    "negative_log_likelihood": 162433.015625,
+    "initial_kl": 16.002883911132812,
+    "path_kl": 1921.308349609375
+  },
+  {
+    "step": 52,
+    "loss": 152654.453125,
+    "negative_log_likelihood": 150286.03125,
+    "initial_kl": 15.144927978515625,
+    "path_kl": 2353.274658203125
+  },
+  {
+    "step": 53,
+    "loss": 142869.375,
+    "negative_log_likelihood": 140738.125,
+    "initial_kl": 13.087555885314941,
+    "path_kl": 2118.1611328125
+  },
+  {
+    "step": 54,
+    "loss": 129349.640625,
+    "negative_log_likelihood": 127732.8125,
+    "initial_kl": 11.552367210388184,
+    "path_kl": 1605.2767333984375
+  },
+  {
+    "step": 55,
+    "loss": 118734.5546875,
+    "negative_log_likelihood": 117303.1953125,
+    "initial_kl": 11.493874549865723,
+    "path_kl": 1419.865966796875
+  },
+  {
+    "step": 56,
+    "loss": 107230.9921875,
+    "negative_log_likelihood": 106019.5234375,
+    "initial_kl": 9.376603126525879,
+    "path_kl": 1202.0947265625
+  },
+  {
+    "step": 57,
+    "loss": 101296.7265625,
+    "negative_log_likelihood": 100055.4296875,
+    "initial_kl": 8.25221061706543,
+    "path_kl": 1233.042236328125
+  },
+  {
+    "step": 58,
+    "loss": 99143.4140625,
+    "negative_log_likelihood": 97670.0546875,
+    "initial_kl": 8.358536720275879,
+    "path_kl": 1465.0025634765625
+  },
+  {
+    "step": 59,
+    "loss": 90443.578125,
+    "negative_log_likelihood": 88825.9921875,
+    "initial_kl": 8.607848167419434,
+    "path_kl": 1608.9765625
+  },
+  {
+    "step": 60,
+    "loss": 83944.65625,
+    "negative_log_likelihood": 82166.3828125,
+    "initial_kl": 7.440333843231201,
+    "path_kl": 1770.8359375
+  },
+  {
+    "step": 61,
+    "loss": 83463.3359375,
+    "negative_log_likelihood": 81529.2578125,
+    "initial_kl": 8.294485092163086,
+    "path_kl": 1925.7808837890625
+  },
+  {
+    "step": 62,
+    "loss": 80949.4375,
+    "negative_log_likelihood": 79140.984375,
+    "initial_kl": 7.107492923736572,
+    "path_kl": 1801.3486328125
+  },
+  {
+    "step": 63,
+    "loss": 80180.421875,
+    "negative_log_likelihood": 78486.6171875,
+    "initial_kl": 6.07997465133667,
+    "path_kl": 1687.728271484375
+  },
+  {
+    "step": 64,
+    "loss": 83891.9453125,
+    "negative_log_likelihood": 82183.78125,
+    "initial_kl": 6.998119831085205,
+    "path_kl": 1701.162109375
+  },
+  {
+    "step": 65,
+    "loss": 75712.7265625,
+    "negative_log_likelihood": 73990.4765625,
+    "initial_kl": 8.369382858276367,
+    "path_kl": 1713.882080078125
+  },
+  {
+    "step": 66,
+    "loss": 70165.7578125,
+    "negative_log_likelihood": 68634.078125,
+    "initial_kl": 7.879152774810791,
+    "path_kl": 1523.8004150390625
+  },
+  {
+    "step": 67,
+    "loss": 67888.71875,
+    "negative_log_likelihood": 66330.7890625,
+    "initial_kl": 7.211457252502441,
+    "path_kl": 1550.7200927734375
+  },
+  {
+    "step": 68,
+    "loss": 73113.21875,
+    "negative_log_likelihood": 71218.21875,
+    "initial_kl": 6.281614303588867,
+    "path_kl": 1888.720458984375
+  },
+  {
+    "step": 69,
+    "loss": 71583.375,
+    "negative_log_likelihood": 69408.5390625,
+    "initial_kl": 6.055605411529541,
+    "path_kl": 2168.783935546875
+  },
+  {
+    "step": 70,
+    "loss": 63834.03125,
+    "negative_log_likelihood": 61452.4609375,
+    "initial_kl": 6.369021415710449,
+    "path_kl": 2375.199951171875
+  },
+  {
+    "step": 71,
+    "loss": 72214.8125,
+    "negative_log_likelihood": 69928.609375,
+    "initial_kl": 7.760486602783203,
+    "path_kl": 2278.440673828125
+  },
+  {
+    "step": 72,
+    "loss": 80085.953125,
+    "negative_log_likelihood": 77831.109375,
+    "initial_kl": 7.647301197052002,
+    "path_kl": 2247.198486328125
+  },
+  {
+    "step": 73,
+    "loss": 71509.90625,
+    "negative_log_likelihood": 69196.140625,
+    "initial_kl": 7.461159706115723,
+    "path_kl": 2306.30517578125
+  },
+  {
+    "step": 74,
+    "loss": 52022.14453125,
+    "negative_log_likelihood": 49613.03125,
+    "initial_kl": 6.659128189086914,
+    "path_kl": 2402.45263671875
+  },
+  {
+    "step": 75,
+    "loss": 66481.2421875,
+    "negative_log_likelihood": 64037.4609375,
+    "initial_kl": 5.803839206695557,
+    "path_kl": 2437.9775390625
+  },
+  {
+    "step": 76,
+    "loss": 77857.03125,
+    "negative_log_likelihood": 75487.3359375,
+    "initial_kl": 5.636912822723389,
+    "path_kl": 2364.054443359375
+  },
+  {
+    "step": 77,
+    "loss": 72128.1015625,
+    "negative_log_likelihood": 69961.640625,
+    "initial_kl": 5.372747898101807,
+    "path_kl": 2161.087158203125
+  },
+  {
+    "step": 78,
+    "loss": 53019.109375,
+    "negative_log_likelihood": 51048.3046875,
+    "initial_kl": 6.003826141357422,
+    "path_kl": 1964.8013916015625
+  },
+  {
+    "step": 79,
+    "loss": 59681.3984375,
+    "negative_log_likelihood": 57679.81640625,
+    "initial_kl": 7.060057640075684,
+    "path_kl": 1994.5224609375
+  },
+  {
+    "step": 80,
+    "loss": 66942.890625,
+    "negative_log_likelihood": 64882.5390625,
+    "initial_kl": 7.845495700836182,
+    "path_kl": 2052.504150390625
+  },
+  {
+    "step": 81,
+    "loss": 66680.7109375,
+    "negative_log_likelihood": 64533.1953125,
+    "initial_kl": 8.083327293395996,
+    "path_kl": 2139.434326171875
+  },
+  {
+    "step": 82,
+    "loss": 53060.6171875,
+    "negative_log_likelihood": 50889.51953125,
+    "initial_kl": 7.409198760986328,
+    "path_kl": 2163.68701171875
+  },
+  {
+    "step": 83,
+    "loss": 57237.33984375,
+    "negative_log_likelihood": 55216.515625,
+    "initial_kl": 6.225178241729736,
+    "path_kl": 2014.600830078125
+  },
+  {
+    "step": 84,
+    "loss": 63109.47265625,
+    "negative_log_likelihood": 61084.35546875,
+    "initial_kl": 5.634359836578369,
+    "path_kl": 2019.4814453125
+  },
+  {
+    "step": 85,
+    "loss": 59867.109375,
+    "negative_log_likelihood": 57904.6875,
+    "initial_kl": 5.506214141845703,
+    "path_kl": 1956.9144287109375
+  },
+  {
+    "step": 86,
+    "loss": 52357.97265625,
+    "negative_log_likelihood": 50349.53125,
+    "initial_kl": 5.886678695678711,
+    "path_kl": 2002.5545654296875
+  },
+  {
+    "step": 87,
+    "loss": 53703.18359375,
+    "negative_log_likelihood": 51484.1953125,
+    "initial_kl": 6.7478179931640625,
+    "path_kl": 2212.23876953125
+  },
+  {
+    "step": 88,
+    "loss": 56957.99609375,
+    "negative_log_likelihood": 54426.84765625,
+    "initial_kl": 7.541755676269531,
+    "path_kl": 2523.60693359375
+  },
+  {
+    "step": 89,
+    "loss": 54723.71484375,
+    "negative_log_likelihood": 52085.41796875,
+    "initial_kl": 7.523800373077393,
+    "path_kl": 2630.774658203125
+  },
+  {
+    "step": 90,
+    "loss": 49107.7734375,
+    "negative_log_likelihood": 46479.39453125,
+    "initial_kl": 7.26381254196167,
+    "path_kl": 2621.11572265625
+  },
+  {
+    "step": 91,
+    "loss": 50736.98828125,
+    "negative_log_likelihood": 48361.35546875,
+    "initial_kl": 6.711221218109131,
+    "path_kl": 2368.92236328125
+  },
+  {
+    "step": 92,
+    "loss": 48216.421875,
+    "negative_log_likelihood": 45977.05859375,
+    "initial_kl": 6.390680313110352,
+    "path_kl": 2232.97119140625
+  },
+  {
+    "step": 93,
+    "loss": 43539.73828125,
+    "negative_log_likelihood": 41414.40234375,
+    "initial_kl": 6.455331325531006,
+    "path_kl": 2118.88134765625
+  },
+  {
+    "step": 94,
+    "loss": 44599.0703125,
+    "negative_log_likelihood": 42434.07421875,
+    "initial_kl": 6.837184906005859,
+    "path_kl": 2158.156982421875
+  },
+  {
+    "step": 95,
+    "loss": 44737.921875,
+    "negative_log_likelihood": 42413.12109375,
+    "initial_kl": 7.128749370574951,
+    "path_kl": 2317.671630859375
+  },
+  {
+    "step": 96,
+    "loss": 41342.80859375,
+    "negative_log_likelihood": 38987.53125,
+    "initial_kl": 6.99080753326416,
+    "path_kl": 2348.286376953125
+  },
+  {
+    "step": 97,
+    "loss": 41111.31640625,
+    "negative_log_likelihood": 38818.53515625,
+    "initial_kl": 7.078111171722412,
+    "path_kl": 2285.702880859375
+  },
+  {
+    "step": 98,
+    "loss": 40462.0,
+    "negative_log_likelihood": 38232.0546875,
+    "initial_kl": 7.375344753265381,
+    "path_kl": 2222.5693359375
+  },
+  {
+    "step": 99,
+    "loss": 40551.6640625,
+    "negative_log_likelihood": 38229.5390625,
+    "initial_kl": 7.646796703338623,
+    "path_kl": 2314.4775390625
+  },
+  {
+    "step": 100,
+    "loss": 37630.75,
+    "negative_log_likelihood": 35235.828125,
+    "initial_kl": 7.031449317932129,
+    "path_kl": 2387.889404296875
+  },
+  {
+    "step": 101,
+    "loss": 40224.03125,
+    "negative_log_likelihood": 37835.5234375,
+    "initial_kl": 6.752353191375732,
+    "path_kl": 2381.75537109375
+  },
+  {
+    "step": 102,
+    "loss": 36403.23828125,
+    "negative_log_likelihood": 33943.140625,
+    "initial_kl": 7.100003242492676,
+    "path_kl": 2452.99853515625
+  },
+  {
+    "step": 103,
+    "loss": 35758.12890625,
+    "negative_log_likelihood": 33288.20703125,
+    "initial_kl": 7.525768280029297,
+    "path_kl": 2462.39697265625
+  },
+  {
+    "step": 104,
+    "loss": 35482.71875,
+    "negative_log_likelihood": 33044.12109375,
+    "initial_kl": 7.38463830947876,
+    "path_kl": 2431.2119140625
+  },
+  {
+    "step": 105,
+    "loss": 35777.53125,
+    "negative_log_likelihood": 33435.4453125,
+    "initial_kl": 7.312466621398926,
+    "path_kl": 2334.775390625
+  },
+  {
+    "step": 106,
+    "loss": 34626.7578125,
+    "negative_log_likelihood": 32452.16796875,
+    "initial_kl": 7.234439373016357,
+    "path_kl": 2167.3564453125
+  },
+  {
+    "step": 107,
+    "loss": 34135.12109375,
+    "negative_log_likelihood": 31911.732421875,
+    "initial_kl": 7.279935836791992,
+    "path_kl": 2216.107666015625
+  },
+  {
+    "step": 108,
+    "loss": 35233.4296875,
+    "negative_log_likelihood": 32766.384765625,
+    "initial_kl": 7.254671573638916,
+    "path_kl": 2459.789306640625
+  },
+  {
+    "step": 109,
+    "loss": 34083.15625,
+    "negative_log_likelihood": 31478.68359375,
+    "initial_kl": 7.372267723083496,
+    "path_kl": 2597.099609375
+  },
+  {
+    "step": 110,
+    "loss": 32267.490234375,
+    "negative_log_likelihood": 29766.40234375,
+    "initial_kl": 7.606227874755859,
+    "path_kl": 2493.48193359375
+  },
+  {
+    "step": 111,
+    "loss": 32328.23828125,
+    "negative_log_likelihood": 29862.78515625,
+    "initial_kl": 7.51536226272583,
+    "path_kl": 2457.937255859375
+  },
+  {
+    "step": 112,
+    "loss": 30865.123046875,
+    "negative_log_likelihood": 28359.201171875,
+    "initial_kl": 7.22662353515625,
+    "path_kl": 2498.69580078125
+  },
+  {
+    "step": 113,
+    "loss": 29698.80859375,
+    "negative_log_likelihood": 27182.6328125,
+    "initial_kl": 7.235254764556885,
+    "path_kl": 2508.939697265625
+  },
+  {
+    "step": 114,
+    "loss": 30009.23828125,
+    "negative_log_likelihood": 27442.669921875,
+    "initial_kl": 7.655930519104004,
+    "path_kl": 2558.91162109375
+  },
+  {
+    "step": 115,
+    "loss": 29878.43359375,
+    "negative_log_likelihood": 27264.1796875,
+    "initial_kl": 7.926389694213867,
+    "path_kl": 2606.326904296875
+  },
+  {
+    "step": 116,
+    "loss": 28562.23046875,
+    "negative_log_likelihood": 25927.408203125,
+    "initial_kl": 7.848631858825684,
+    "path_kl": 2626.97265625
+  },
+  {
+    "step": 117,
+    "loss": 25968.17578125,
+    "negative_log_likelihood": 23385.8515625,
+    "initial_kl": 7.362739086151123,
+    "path_kl": 2574.96142578125
+  },
+  {
+    "step": 118,
+    "loss": 27505.609375,
+    "negative_log_likelihood": 25056.94140625,
+    "initial_kl": 7.412379264831543,
+    "path_kl": 2441.256103515625
+  },
+  {
+    "step": 119,
+    "loss": 25730.125,
+    "negative_log_likelihood": 23301.947265625,
+    "initial_kl": 7.742600440979004,
+    "path_kl": 2420.43603515625
+  },
+  {
+    "step": 120,
+    "loss": 25038.1640625,
+    "negative_log_likelihood": 22511.15234375,
+    "initial_kl": 8.321907997131348,
+    "path_kl": 2518.690185546875
+  },
+  {
+    "step": 121,
+    "loss": 26886.703125,
+    "negative_log_likelihood": 24305.646484375,
+    "initial_kl": 8.467806816101074,
+    "path_kl": 2572.58837890625
+  },
+  {
+    "step": 122,
+    "loss": 21776.5703125,
+    "negative_log_likelihood": 19145.12109375,
+    "initial_kl": 8.230325698852539,
+    "path_kl": 2623.21923828125
+  },
+  {
+    "step": 123,
+    "loss": 25402.767578125,
+    "negative_log_likelihood": 22759.705078125,
+    "initial_kl": 7.984361171722412,
+    "path_kl": 2635.078125
+  },
+  {
+    "step": 124,
+    "loss": 22951.681640625,
+    "negative_log_likelihood": 20278.28515625,
+    "initial_kl": 8.248542785644531,
+    "path_kl": 2665.1484375
+  },
+  {
+    "step": 125,
+    "loss": 24262.33203125,
+    "negative_log_likelihood": 21633.08984375,
+    "initial_kl": 8.665975570678711,
+    "path_kl": 2620.5771484375
+  },
+  {
+    "step": 126,
+    "loss": 21526.376953125,
+    "negative_log_likelihood": 18904.2265625,
+    "initial_kl": 8.86506462097168,
+    "path_kl": 2613.285400390625
+  },
+  {
+    "step": 127,
+    "loss": 23994.5390625,
+    "negative_log_likelihood": 21348.939453125,
+    "initial_kl": 8.34765625,
+    "path_kl": 2637.252685546875
+  },
+  {
+    "step": 128,
+    "loss": 25851.603515625,
+    "negative_log_likelihood": 23296.955078125,
+    "initial_kl": 8.694178581237793,
+    "path_kl": 2545.953857421875
+  },
+  {
+    "step": 129,
+    "loss": 25233.8125,
+    "negative_log_likelihood": 22678.345703125,
+    "initial_kl": 8.826116561889648,
+    "path_kl": 2546.640869140625
+  },
+  {
+    "step": 130,
+    "loss": 23552.42578125,
+    "negative_log_likelihood": 20971.923828125,
+    "initial_kl": 8.891324043273926,
+    "path_kl": 2571.60986328125
+  },
+  {
+    "step": 131,
+    "loss": 23018.783203125,
+    "negative_log_likelihood": 20338.060546875,
+    "initial_kl": 8.628545761108398,
+    "path_kl": 2672.0947265625
+  },
+  {
+    "step": 132,
+    "loss": 20932.9296875,
+    "negative_log_likelihood": 18038.078125,
+    "initial_kl": 8.483168601989746,
+    "path_kl": 2886.36767578125
+  },
+  {
+    "step": 133,
+    "loss": 19537.849609375,
+    "negative_log_likelihood": 16487.15234375,
+    "initial_kl": 8.729206085205078,
+    "path_kl": 3041.967529296875
+  },
+  {
+    "step": 134,
+    "loss": 19803.90625,
+    "negative_log_likelihood": 17018.689453125,
+    "initial_kl": 9.085502624511719,
+    "path_kl": 2776.13134765625
+  },
+  {
+    "step": 135,
+    "loss": 17443.673828125,
+    "negative_log_likelihood": 14878.6357421875,
+    "initial_kl": 9.312726974487305,
+    "path_kl": 2555.725830078125
+  },
+  {
+    "step": 136,
+    "loss": 20413.201171875,
+    "negative_log_likelihood": 17928.099609375,
+    "initial_kl": 8.86445140838623,
+    "path_kl": 2476.23681640625
+  },
+  {
+    "step": 137,
+    "loss": 19022.6796875,
+    "negative_log_likelihood": 16615.845703125,
+    "initial_kl": 9.078753471374512,
+    "path_kl": 2397.75537109375
+  },
+  {
+    "step": 138,
+    "loss": 17237.248046875,
+    "negative_log_likelihood": 14747.025390625,
+    "initial_kl": 9.180401802062988,
+    "path_kl": 2481.04248046875
+  },
+  {
+    "step": 139,
+    "loss": 23670.556640625,
+    "negative_log_likelihood": 20866.634765625,
+    "initial_kl": 9.61707878112793,
+    "path_kl": 2794.305419921875
+  },
+  {
+    "step": 140,
+    "loss": 21522.640625,
+    "negative_log_likelihood": 18533.02734375,
+    "initial_kl": 10.454300880432129,
+    "path_kl": 2979.158203125
+  },
+  {
+    "step": 141,
+    "loss": 18347.4140625,
+    "negative_log_likelihood": 15434.1318359375,
+    "initial_kl": 10.62411117553711,
+    "path_kl": 2902.65771484375
+  },
+  {
+    "step": 142,
+    "loss": 20714.490234375,
+    "negative_log_likelihood": 17872.40625,
+    "initial_kl": 10.293935775756836,
+    "path_kl": 2831.790283203125
+  },
+  {
+    "step": 143,
+    "loss": 16111.6865234375,
+    "negative_log_likelihood": 13359.052734375,
+    "initial_kl": 10.175543785095215,
+    "path_kl": 2742.45849609375
+  },
+  {
+    "step": 144,
+    "loss": 21111.478515625,
+    "negative_log_likelihood": 18381.09765625,
+    "initial_kl": 9.401488304138184,
+    "path_kl": 2720.978759765625
+  },
+  {
+    "step": 145,
+    "loss": 22203.875,
+    "negative_log_likelihood": 19589.83984375,
+    "initial_kl": 9.131089210510254,
+    "path_kl": 2604.904296875
+  },
+  {
+    "step": 146,
+    "loss": 16861.134765625,
+    "negative_log_likelihood": 14422.3515625,
+    "initial_kl": 9.179919242858887,
+    "path_kl": 2429.603759765625
+  },
+  {
+    "step": 147,
+    "loss": 21523.140625,
+    "negative_log_likelihood": 19182.92578125,
+    "initial_kl": 10.088093757629395,
+    "path_kl": 2330.12646484375
+  },
+  {
+    "step": 148,
+    "loss": 20657.880859375,
+    "negative_log_likelihood": 18341.927734375,
+    "initial_kl": 10.171878814697266,
+    "path_kl": 2305.781494140625
+  },
+  {
+    "step": 149,
+    "loss": 15280.5986328125,
+    "negative_log_likelihood": 12919.7265625,
+    "initial_kl": 10.530847549438477,
+    "path_kl": 2350.341064453125
+  },
+  {
+    "step": 150,
+    "loss": 23165.302734375,
+    "negative_log_likelihood": 20640.9765625,
+    "initial_kl": 10.102958679199219,
+    "path_kl": 2514.22314453125
+  },
+  {
+    "step": 151,
+    "loss": 23038.6953125,
+    "negative_log_likelihood": 20511.201171875,
+    "initial_kl": 9.848584175109863,
+    "path_kl": 2517.645263671875
+  },
+  {
+    "step": 152,
+    "loss": 15850.884765625,
+    "negative_log_likelihood": 13283.2734375,
+    "initial_kl": 9.943821907043457,
+    "path_kl": 2557.66748046875
+  },
+  {
+    "step": 153,
+    "loss": 19894.30859375,
+    "negative_log_likelihood": 17327.3359375,
+    "initial_kl": 10.159226417541504,
+    "path_kl": 2556.81298828125
+  },
+  {
+    "step": 154,
+    "loss": 21743.046875,
+    "negative_log_likelihood": 19123.115234375,
+    "initial_kl": 10.077879905700684,
+    "path_kl": 2609.8544921875
+  },
+  {
+    "step": 155,
+    "loss": 17065.12109375,
+    "negative_log_likelihood": 14294.091796875,
+    "initial_kl": 10.578880310058594,
+    "path_kl": 2760.449462890625
+  },
+  {
+    "step": 156,
+    "loss": 21305.7734375,
+    "negative_log_likelihood": 18551.533203125,
+    "initial_kl": 10.121687889099121,
+    "path_kl": 2744.119384765625
+  },
+  {
+    "step": 157,
+    "loss": 21890.560546875,
+    "negative_log_likelihood": 19247.2109375,
+    "initial_kl": 10.173904418945312,
+    "path_kl": 2633.17578125
+  },
+  {
+    "step": 158,
+    "loss": 14514.6669921875,
+    "negative_log_likelihood": 12036.5087890625,
+    "initial_kl": 10.049240112304688,
+    "path_kl": 2468.109130859375
+  },
+  {
+    "step": 159,
+    "loss": 20147.25,
+    "negative_log_likelihood": 17840.51171875,
+    "initial_kl": 10.338726043701172,
+    "path_kl": 2296.398681640625
+  },
+  {
+    "step": 160,
+    "loss": 26276.166015625,
+    "negative_log_likelihood": 24034.85546875,
+    "initial_kl": 10.431859016418457,
+    "path_kl": 2230.8779296875
+  },
+  {
+    "step": 161,
+    "loss": 17635.392578125,
+    "negative_log_likelihood": 15409.392578125,
+    "initial_kl": 10.359073638916016,
+    "path_kl": 2215.640625
+  },
+  {
+    "step": 162,
+    "loss": 14853.423828125,
+    "negative_log_likelihood": 12527.310546875,
+    "initial_kl": 10.352495193481445,
+    "path_kl": 2315.760498046875
+  },
+  {
+    "step": 163,
+    "loss": 17340.984375,
+    "negative_log_likelihood": 14889.537109375,
+    "initial_kl": 10.490471839904785,
+    "path_kl": 2440.956298828125
+  },
+  {
+    "step": 164,
+    "loss": 14074.5537109375,
+    "negative_log_likelihood": 11583.619140625,
+    "initial_kl": 10.584545135498047,
+    "path_kl": 2480.349853515625
+  },
+  {
+    "step": 165,
+    "loss": 14865.1123046875,
+    "negative_log_likelihood": 12440.9189453125,
+    "initial_kl": 10.79120922088623,
+    "path_kl": 2413.40185546875
+  },
+  {
+    "step": 166,
+    "loss": 16548.193359375,
+    "negative_log_likelihood": 14062.033203125,
+    "initial_kl": 10.790142059326172,
+    "path_kl": 2475.3701171875
+  },
+  {
+    "step": 167,
+    "loss": 12214.6142578125,
+    "negative_log_likelihood": 9696.173828125,
+    "initial_kl": 10.439092636108398,
+    "path_kl": 2508.00146484375
+  },
+  {
+    "step": 168,
+    "loss": 14740.833984375,
+    "negative_log_likelihood": 12120.59375,
+    "initial_kl": 10.095038414001465,
+    "path_kl": 2610.14501953125
+  },
+  {
+    "step": 169,
+    "loss": 19970.806640625,
+    "negative_log_likelihood": 17435.146484375,
+    "initial_kl": 10.215014457702637,
+    "path_kl": 2525.4443359375
+  },
+  {
+    "step": 170,
+    "loss": 14302.45703125,
+    "negative_log_likelihood": 11933.8720703125,
+    "initial_kl": 9.873414993286133,
+    "path_kl": 2358.711669921875
+  },
+  {
+    "step": 171,
+    "loss": 14265.068359375,
+    "negative_log_likelihood": 12133.796875,
+    "initial_kl": 10.168220520019531,
+    "path_kl": 2121.103515625
+  },
+  {
+    "step": 172,
+    "loss": 14323.4189453125,
+    "negative_log_likelihood": 12180.796875,
+    "initial_kl": 10.311288833618164,
+    "path_kl": 2132.310546875
+  },
+  {
+    "step": 173,
+    "loss": 12013.7041015625,
+    "negative_log_likelihood": 9780.642578125,
+    "initial_kl": 10.569183349609375,
+    "path_kl": 2222.492431640625
+  },
+  {
+    "step": 174,
+    "loss": 15516.0087890625,
+    "negative_log_likelihood": 13241.115234375,
+    "initial_kl": 10.621306419372559,
+    "path_kl": 2264.272216796875
+  },
+  {
+    "step": 175,
+    "loss": 16982.716796875,
+    "negative_log_likelihood": 14645.5068359375,
+    "initial_kl": 10.454286575317383,
+    "path_kl": 2326.75634765625
+  },
+  {
+    "step": 176,
+    "loss": 11500.94921875,
+    "negative_log_likelihood": 9157.162109375,
+    "initial_kl": 10.48969554901123,
+    "path_kl": 2333.29736328125
+  },
+  {
+    "step": 177,
+    "loss": 13119.1572265625,
+    "negative_log_likelihood": 10921.88671875,
+    "initial_kl": 10.120542526245117,
+    "path_kl": 2187.150146484375
+  },
+  {
+    "step": 178,
+    "loss": 17247.365234375,
+    "negative_log_likelihood": 15076.21875,
+    "initial_kl": 10.128124237060547,
+    "path_kl": 2161.017822265625
+  },
+  {
+    "step": 179,
+    "loss": 13803.208984375,
+    "negative_log_likelihood": 11641.6240234375,
+    "initial_kl": 10.12888240814209,
+    "path_kl": 2151.45556640625
+  },
+  {
+    "step": 180,
+    "loss": 11776.7265625,
+    "negative_log_likelihood": 9543.26953125,
+    "initial_kl": 10.118321418762207,
+    "path_kl": 2223.338623046875
+  },
+  {
+    "step": 181,
+    "loss": 13695.7421875,
+    "negative_log_likelihood": 11372.2734375,
+    "initial_kl": 10.081195831298828,
+    "path_kl": 2313.38720703125
+  },
+  {
+    "step": 182,
+    "loss": 12129.416015625,
+    "negative_log_likelihood": 9867.1787109375,
+    "initial_kl": 10.176877975463867,
+    "path_kl": 2252.06103515625
+  },
+  {
+    "step": 183,
+    "loss": 12466.5732421875,
+    "negative_log_likelihood": 10244.224609375,
+    "initial_kl": 10.563949584960938,
+    "path_kl": 2211.784912109375
+  },
+  {
+    "step": 184,
+    "loss": 17085.76953125,
+    "negative_log_likelihood": 14853.4716796875,
+    "initial_kl": 10.719490051269531,
+    "path_kl": 2221.577392578125
+  },
+  {
+    "step": 185,
+    "loss": 11016.263671875,
+    "negative_log_likelihood": 8751.6357421875,
+    "initial_kl": 10.577789306640625,
+    "path_kl": 2254.050048828125
+  },
+  {
+    "step": 186,
+    "loss": 10946.42578125,
+    "negative_log_likelihood": 8671.9365234375,
+    "initial_kl": 10.388090133666992,
+    "path_kl": 2264.100830078125
+  },
+  {
+    "step": 187,
+    "loss": 11020.537109375,
+    "negative_log_likelihood": 8869.724609375,
+    "initial_kl": 10.053149223327637,
+    "path_kl": 2140.75927734375
+  },
+  {
+    "step": 188,
+    "loss": 9601.6396484375,
+    "negative_log_likelihood": 7506.607421875,
+    "initial_kl": 10.125638961791992,
+    "path_kl": 2084.90673828125
+  },
+  {
+    "step": 189,
+    "loss": 11135.5146484375,
+    "negative_log_likelihood": 9130.5537109375,
+    "initial_kl": 10.520222663879395,
+    "path_kl": 1994.4403076171875
+  },
+  {
+    "step": 190,
+    "loss": 11323.046875,
+    "negative_log_likelihood": 9230.87890625,
+    "initial_kl": 10.534757614135742,
+    "path_kl": 2081.6337890625
+  },
+  {
+    "step": 191,
+    "loss": 9766.763671875,
+    "negative_log_likelihood": 7562.85546875,
+    "initial_kl": 10.793487548828125,
+    "path_kl": 2193.114990234375
+  },
+  {
+    "step": 192,
+    "loss": 9187.7666015625,
+    "negative_log_likelihood": 7070.6689453125,
+    "initial_kl": 10.453444480895996,
+    "path_kl": 2106.644287109375
+  },
+  {
+    "step": 193,
+    "loss": 9215.7314453125,
+    "negative_log_likelihood": 7243.056640625,
+    "initial_kl": 10.428237915039062,
+    "path_kl": 1962.246337890625
+  },
+  {
+    "step": 194,
+    "loss": 8559.541015625,
+    "negative_log_likelihood": 6574.4228515625,
+    "initial_kl": 10.477728843688965,
+    "path_kl": 1974.6405029296875
+  },
+  {
+    "step": 195,
+    "loss": 9414.3720703125,
+    "negative_log_likelihood": 7350.4951171875,
+    "initial_kl": 10.550361633300781,
+    "path_kl": 2053.326416015625
+  },
+  {
+    "step": 196,
+    "loss": 8654.330078125,
+    "negative_log_likelihood": 6611.5947265625,
+    "initial_kl": 10.827228546142578,
+    "path_kl": 2031.9083251953125
+  },
+  {
+    "step": 197,
+    "loss": 9099.794921875,
+    "negative_log_likelihood": 7011.12060546875,
+    "initial_kl": 10.5067138671875,
+    "path_kl": 2078.16796875
+  },
+  {
+    "step": 198,
+    "loss": 8591.630859375,
+    "negative_log_likelihood": 6618.47998046875,
+    "initial_kl": 10.460697174072266,
+    "path_kl": 1962.6905517578125
+  },
+  {
+    "step": 199,
+    "loss": 8335.5068359375,
+    "negative_log_likelihood": 6351.06787109375,
+    "initial_kl": 11.182228088378906,
+    "path_kl": 1973.2568359375
+  },
+  {
+    "step": 200,
+    "loss": 8095.54833984375,
+    "negative_log_likelihood": 6255.98779296875,
+    "initial_kl": 10.967205047607422,
+    "path_kl": 1828.593505859375
+  },
+  {
+    "step": 201,
+    "loss": 8689.3134765625,
+    "negative_log_likelihood": 6910.75146484375,
+    "initial_kl": 10.87166976928711,
+    "path_kl": 1767.6903076171875
+  },
+  {
+    "step": 202,
+    "loss": 8451.087890625,
+    "negative_log_likelihood": 6699.4248046875,
+    "initial_kl": 11.347265243530273,
+    "path_kl": 1740.31591796875
+  },
+  {
+    "step": 203,
+    "loss": 9793.18359375,
+    "negative_log_likelihood": 7940.84033203125,
+    "initial_kl": 11.188559532165527,
+    "path_kl": 1841.155029296875
+  },
+  {
+    "step": 204,
+    "loss": 9622.76171875,
+    "negative_log_likelihood": 7751.068359375,
+    "initial_kl": 11.640198707580566,
+    "path_kl": 1860.052734375
+  },
+  {
+    "step": 205,
+    "loss": 7471.7119140625,
+    "negative_log_likelihood": 5588.91357421875,
+    "initial_kl": 11.441913604736328,
+    "path_kl": 1871.3563232421875
+  },
+  {
+    "step": 206,
+    "loss": 10696.693359375,
+    "negative_log_likelihood": 8855.298828125,
+    "initial_kl": 11.60415267944336,
+    "path_kl": 1829.7908935546875
+  },
+  {
+    "step": 207,
+    "loss": 9568.6953125,
+    "negative_log_likelihood": 7769.44482421875,
+    "initial_kl": 11.494430541992188,
+    "path_kl": 1787.7557373046875
+  },
+  {
+    "step": 208,
+    "loss": 7008.1484375,
+    "negative_log_likelihood": 5237.14501953125,
+    "initial_kl": 11.9716796875,
+    "path_kl": 1759.031982421875
+  },
+  {
+    "step": 209,
+    "loss": 8505.017578125,
+    "negative_log_likelihood": 6690.107421875,
+    "initial_kl": 11.497125625610352,
+    "path_kl": 1803.412841796875
+  },
+  {
+    "step": 210,
+    "loss": 7167.99462890625,
+    "negative_log_likelihood": 5531.60302734375,
+    "initial_kl": 11.388816833496094,
+    "path_kl": 1625.002685546875
+  },
+  {
+    "step": 211,
+    "loss": 7973.03662109375,
+    "negative_log_likelihood": 6426.2333984375,
+    "initial_kl": 11.183097839355469,
+    "path_kl": 1535.6199951171875
+  },
+  {
+    "step": 212,
+    "loss": 7825.42333984375,
+    "negative_log_likelihood": 6245.0380859375,
+    "initial_kl": 11.320730209350586,
+    "path_kl": 1569.0645751953125
+  },
+  {
+    "step": 213,
+    "loss": 8296.1259765625,
+    "negative_log_likelihood": 6546.041015625,
+    "initial_kl": 11.112043380737305,
+    "path_kl": 1738.9730224609375
+  },
+  {
+    "step": 214,
+    "loss": 8076.0302734375,
+    "negative_log_likelihood": 6373.8896484375,
+    "initial_kl": 11.399675369262695,
+    "path_kl": 1690.7410888671875
+  },
+  {
+    "step": 215,
+    "loss": 6968.91162109375,
+    "negative_log_likelihood": 5329.56982421875,
+    "initial_kl": 11.468988418579102,
+    "path_kl": 1627.872802734375
+  },
+  {
+    "step": 216,
+    "loss": 7097.8291015625,
+    "negative_log_likelihood": 5521.65087890625,
+    "initial_kl": 11.163061141967773,
+    "path_kl": 1565.0152587890625
+  },
+  {
+    "step": 217,
+    "loss": 6581.46826171875,
+    "negative_log_likelihood": 4979.7421875,
+    "initial_kl": 11.24278736114502,
+    "path_kl": 1590.4832763671875
+  },
+  {
+    "step": 218,
+    "loss": 5854.3857421875,
+    "negative_log_likelihood": 4240.05908203125,
+    "initial_kl": 11.20041561126709,
+    "path_kl": 1603.12646484375
+  },
+  {
+    "step": 219,
+    "loss": 6953.5224609375,
+    "negative_log_likelihood": 5495.4375,
+    "initial_kl": 11.077094078063965,
+    "path_kl": 1447.008056640625
+  },
+  {
+    "step": 220,
+    "loss": 6093.0009765625,
+    "negative_log_likelihood": 4681.541015625,
+    "initial_kl": 11.493785858154297,
+    "path_kl": 1399.9664306640625
+  },
+  {
+    "step": 221,
+    "loss": 6050.11083984375,
+    "negative_log_likelihood": 4619.751953125,
+    "initial_kl": 11.415833473205566,
+    "path_kl": 1418.94287109375
+  },
+  {
+    "step": 222,
+    "loss": 6726.564453125,
+    "negative_log_likelihood": 5192.181640625,
+    "initial_kl": 11.084827423095703,
+    "path_kl": 1523.2978515625
+  },
+  {
+    "step": 223,
+    "loss": 7066.6435546875,
+    "negative_log_likelihood": 5430.91015625,
+    "initial_kl": 11.302035331726074,
+    "path_kl": 1624.4312744140625
+  },
+  {
+    "step": 224,
+    "loss": 7003.9287109375,
+    "negative_log_likelihood": 5288.14013671875,
+    "initial_kl": 11.178747177124023,
+    "path_kl": 1704.60986328125
+  },
+  {
+    "step": 225,
+    "loss": 6522.0869140625,
+    "negative_log_likelihood": 4906.294921875,
+    "initial_kl": 10.970803260803223,
+    "path_kl": 1604.8214111328125
+  },
+  {
+    "step": 226,
+    "loss": 6817.201171875,
+    "negative_log_likelihood": 5369.2177734375,
+    "initial_kl": 10.793142318725586,
+    "path_kl": 1437.1905517578125
+  },
+  {
+    "step": 227,
+    "loss": 6834.4775390625,
+    "negative_log_likelihood": 5459.99462890625,
+    "initial_kl": 11.112733840942383,
+    "path_kl": 1363.3702392578125
+  },
+  {
+    "step": 228,
+    "loss": 5825.70703125,
+    "negative_log_likelihood": 4468.72607421875,
+    "initial_kl": 11.195262908935547,
+    "path_kl": 1345.785400390625
+  },
+  {
+    "step": 229,
+    "loss": 5840.1318359375,
+    "negative_log_likelihood": 4562.9677734375,
+    "initial_kl": 11.046852111816406,
+    "path_kl": 1266.1171875
+  },
+  {
+    "step": 230,
+    "loss": 6656.23193359375,
+    "negative_log_likelihood": 5388.9423828125,
+    "initial_kl": 10.698362350463867,
+    "path_kl": 1256.59130859375
+  },
+  {
+    "step": 231,
+    "loss": 6088.97802734375,
+    "negative_log_likelihood": 4848.8994140625,
+    "initial_kl": 11.046582221984863,
+    "path_kl": 1229.0318603515625
+  },
+  {
+    "step": 232,
+    "loss": 5956.97021484375,
+    "negative_log_likelihood": 4656.7919921875,
+    "initial_kl": 11.132591247558594,
+    "path_kl": 1289.0457763671875
+  },
+  {
+    "step": 233,
+    "loss": 6080.158203125,
+    "negative_log_likelihood": 4713.89599609375,
+    "initial_kl": 10.961978912353516,
+    "path_kl": 1355.3004150390625
+  },
+  {
+    "step": 234,
+    "loss": 5848.20556640625,
+    "negative_log_likelihood": 4498.705078125,
+    "initial_kl": 10.732826232910156,
+    "path_kl": 1338.767822265625
+  },
+  {
+    "step": 235,
+    "loss": 5272.58251953125,
+    "negative_log_likelihood": 3924.032470703125,
+    "initial_kl": 10.93907642364502,
+    "path_kl": 1337.6109619140625
+  },
+  {
+    "step": 236,
+    "loss": 6302.505859375,
+    "negative_log_likelihood": 4910.650390625,
+    "initial_kl": 10.848753929138184,
+    "path_kl": 1381.0068359375
+  },
+  {
+    "step": 237,
+    "loss": 6321.02783203125,
+    "negative_log_likelihood": 4830.90478515625,
+    "initial_kl": 10.46153736114502,
+    "path_kl": 1479.661376953125
+  },
+  {
+    "step": 238,
+    "loss": 6795.525390625,
+    "negative_log_likelihood": 5663.53955078125,
+    "initial_kl": 11.13120174407959,
+    "path_kl": 1120.8544921875
+  },
+  {
+    "step": 239,
+    "loss": 6334.8095703125,
+    "negative_log_likelihood": 5204.0556640625,
+    "initial_kl": 11.162260055541992,
+    "path_kl": 1119.5919189453125
+  },
+  {
+    "step": 240,
+    "loss": 5120.96044921875,
+    "negative_log_likelihood": 3978.29052734375,
+    "initial_kl": 11.06258487701416,
+    "path_kl": 1131.607177734375
+  },
+  {
+    "step": 241,
+    "loss": 5582.953125,
+    "negative_log_likelihood": 4418.72412109375,
+    "initial_kl": 10.699850082397461,
+    "path_kl": 1153.5291748046875
+  },
+  {
+    "step": 242,
+    "loss": 5628.67919921875,
+    "negative_log_likelihood": 4546.93359375,
+    "initial_kl": 10.91727066040039,
+    "path_kl": 1070.8284912109375
+  },
+  {
+    "step": 243,
+    "loss": 4805.3095703125,
+    "negative_log_likelihood": 3730.41845703125,
+    "initial_kl": 10.891816139221191,
+    "path_kl": 1063.9990234375
+  },
+  {
+    "step": 244,
+    "loss": 5229.9677734375,
+    "negative_log_likelihood": 4050.25048828125,
+    "initial_kl": 10.91505241394043,
+    "path_kl": 1168.802490234375
+  },
+  {
+    "step": 245,
+    "loss": 5373.0361328125,
+    "negative_log_likelihood": 4186.466796875,
+    "initial_kl": 11.095067977905273,
+    "path_kl": 1175.4742431640625
+  },
+  {
+    "step": 246,
+    "loss": 5502.1123046875,
+    "negative_log_likelihood": 4306.90673828125,
+    "initial_kl": 11.260612487792969,
+    "path_kl": 1183.9449462890625
+  },
+  {
+    "step": 247,
+    "loss": 4786.5966796875,
+    "negative_log_likelihood": 3660.251953125,
+    "initial_kl": 10.77519416809082,
+    "path_kl": 1115.5694580078125
+  },
+  {
+    "step": 248,
+    "loss": 5359.87890625,
+    "negative_log_likelihood": 4340.7724609375,
+    "initial_kl": 10.68653678894043,
+    "path_kl": 1008.419921875
+  },
+  {
+    "step": 249,
+    "loss": 4693.916015625,
+    "negative_log_likelihood": 3719.67578125,
+    "initial_kl": 10.932107925415039,
+    "path_kl": 963.30810546875
+  },
+  {
+    "step": 250,
+    "loss": 5411.91162109375,
+    "negative_log_likelihood": 4307.60498046875,
+    "initial_kl": 11.006074905395508,
+    "path_kl": 1093.3006591796875
+  },
+  {
+    "step": 251,
+    "loss": 5171.09033203125,
+    "negative_log_likelihood": 4147.03125,
+    "initial_kl": 10.9404935836792,
+    "path_kl": 1013.11865234375
+  },
+  {
+    "step": 252,
+    "loss": 5718.3056640625,
+    "negative_log_likelihood": 4741.287109375,
+    "initial_kl": 11.072530746459961,
+    "path_kl": 965.94580078125
+  },
+  {
+    "step": 253,
+    "loss": 5316.29296875,
+    "negative_log_likelihood": 4354.65625,
+    "initial_kl": 11.209012031555176,
+    "path_kl": 950.4278564453125
+  },
+  {
+    "step": 254,
+    "loss": 4400.939453125,
+    "negative_log_likelihood": 3389.0126953125,
+    "initial_kl": 10.717153549194336,
+    "path_kl": 1001.2093505859375
+  },
+  {
+    "step": 255,
+    "loss": 4387.44873046875,
+    "negative_log_likelihood": 3318.384521484375,
+    "initial_kl": 10.544088363647461,
+    "path_kl": 1058.5201416015625
+  },
+  {
+    "step": 256,
+    "loss": 4417.1962890625,
+    "negative_log_likelihood": 3412.728271484375,
+    "initial_kl": 10.895033836364746,
+    "path_kl": 993.572998046875
+  },
+  {
+    "step": 257,
+    "loss": 4443.2880859375,
+    "negative_log_likelihood": 3434.3974609375,
+    "initial_kl": 11.023505210876465,
+    "path_kl": 997.8671875
+  },
+  {
+    "step": 258,
+    "loss": 4084.708740234375,
+    "negative_log_likelihood": 3084.048583984375,
+    "initial_kl": 11.084637641906738,
+    "path_kl": 989.5755615234375
+  },
+  {
+    "step": 259,
+    "loss": 4594.0537109375,
+    "negative_log_likelihood": 3680.820556640625,
+    "initial_kl": 11.017855644226074,
+    "path_kl": 902.215087890625
+  },
+  {
+    "step": 260,
+    "loss": 4293.20654296875,
+    "negative_log_likelihood": 3408.17236328125,
+    "initial_kl": 10.46954345703125,
+    "path_kl": 874.5645141601562
+  },
+  {
+    "step": 261,
+    "loss": 4497.7802734375,
+    "negative_log_likelihood": 3620.397705078125,
+    "initial_kl": 10.570293426513672,
+    "path_kl": 866.8123168945312
+  },
+  {
+    "step": 262,
+    "loss": 4079.263427734375,
+    "negative_log_likelihood": 3231.31884765625,
+    "initial_kl": 10.894885063171387,
+    "path_kl": 837.0496826171875
+  },
+  {
+    "step": 263,
+    "loss": 5127.0810546875,
+    "negative_log_likelihood": 4146.20458984375,
+    "initial_kl": 10.802936553955078,
+    "path_kl": 970.0734252929688
+  },
+  {
+    "step": 264,
+    "loss": 5240.4033203125,
+    "negative_log_likelihood": 4291.8359375,
+    "initial_kl": 10.99991226196289,
+    "path_kl": 937.5676879882812
+  },
+  {
+    "step": 265,
+    "loss": 3716.1962890625,
+    "negative_log_likelihood": 2814.1689453125,
+    "initial_kl": 11.089638710021973,
+    "path_kl": 890.9376220703125
+  },
+  {
+    "step": 266,
+    "loss": 4011.978759765625,
+    "negative_log_likelihood": 3119.619384765625,
+    "initial_kl": 10.951306343078613,
+    "path_kl": 881.4080810546875
+  },
+  {
+    "step": 267,
+    "loss": 3980.038330078125,
+    "negative_log_likelihood": 2972.400390625,
+    "initial_kl": 10.826216697692871,
+    "path_kl": 996.811767578125
+  },
+  {
+    "step": 268,
+    "loss": 3883.2265625,
+    "negative_log_likelihood": 2906.766845703125,
+    "initial_kl": 10.598430633544922,
+    "path_kl": 965.8612670898438
+  },
+  {
+    "step": 269,
+    "loss": 4414.1298828125,
+    "negative_log_likelihood": 3505.28857421875,
+    "initial_kl": 10.970918655395508,
+    "path_kl": 897.8704223632812
+  },
+  {
+    "step": 270,
+    "loss": 4008.578125,
+    "negative_log_likelihood": 3078.46044921875,
+    "initial_kl": 11.417160034179688,
+    "path_kl": 918.7003784179688
+  },
+  {
+    "step": 271,
+    "loss": 5229.02197265625,
+    "negative_log_likelihood": 4176.876953125,
+    "initial_kl": 11.135627746582031,
+    "path_kl": 1041.0093994140625
+  },
+  {
+    "step": 272,
+    "loss": 4373.99755859375,
+    "negative_log_likelihood": 3458.00927734375,
+    "initial_kl": 10.940229415893555,
+    "path_kl": 905.0479736328125
+  },
+  {
+    "step": 273,
+    "loss": 3617.56884765625,
+    "negative_log_likelihood": 2863.498046875,
+    "initial_kl": 10.797006607055664,
+    "path_kl": 743.2738037109375
+  },
+  {
+    "step": 274,
+    "loss": 3306.38232421875,
+    "negative_log_likelihood": 2530.366943359375,
+    "initial_kl": 10.671932220458984,
+    "path_kl": 765.343505859375
+  },
+  {
+    "step": 275,
+    "loss": 4243.62548828125,
+    "negative_log_likelihood": 3242.19677734375,
+    "initial_kl": 10.753347396850586,
+    "path_kl": 990.6754150390625
+  },
+  {
+    "step": 276,
+    "loss": 3860.8154296875,
+    "negative_log_likelihood": 2868.830078125,
+    "initial_kl": 10.96435260772705,
+    "path_kl": 981.0210571289062
+  },
+  {
+    "step": 277,
+    "loss": 4158.0869140625,
+    "negative_log_likelihood": 3243.627685546875,
+    "initial_kl": 10.949111938476562,
+    "path_kl": 903.510009765625
+  },
+  {
+    "step": 278,
+    "loss": 3895.283203125,
+    "negative_log_likelihood": 2978.76953125,
+    "initial_kl": 10.820573806762695,
+    "path_kl": 905.693115234375
+  },
+  {
+    "step": 279,
+    "loss": 4053.57080078125,
+    "negative_log_likelihood": 3104.020263671875,
+    "initial_kl": 10.659488677978516,
+    "path_kl": 938.89111328125
+  },
+  {
+    "step": 280,
+    "loss": 3414.7802734375,
+    "negative_log_likelihood": 2521.731201171875,
+    "initial_kl": 10.853800773620605,
+    "path_kl": 882.1951904296875
+  },
+  {
+    "step": 281,
+    "loss": 4192.29052734375,
+    "negative_log_likelihood": 3436.10546875,
+    "initial_kl": 10.805743217468262,
+    "path_kl": 745.37939453125
+  },
+  {
+    "step": 282,
+    "loss": 5262.8779296875,
+    "negative_log_likelihood": 4404.28369140625,
+    "initial_kl": 10.493688583374023,
+    "path_kl": 848.100341796875
+  },
+  {
+    "step": 283,
+    "loss": 3628.115478515625,
+    "negative_log_likelihood": 2728.337890625,
+    "initial_kl": 10.652765274047852,
+    "path_kl": 889.124755859375
+  },
+  {
+    "step": 284,
+    "loss": 2980.410400390625,
+    "negative_log_likelihood": 2185.982421875,
+    "initial_kl": 10.577260971069336,
+    "path_kl": 783.8507690429688
+  },
+  {
+    "step": 285,
+    "loss": 3848.341796875,
+    "negative_log_likelihood": 3046.0751953125,
+    "initial_kl": 10.545354843139648,
+    "path_kl": 791.72119140625
+  },
+  {
+    "step": 286,
+    "loss": 4117.6845703125,
+    "negative_log_likelihood": 3280.7001953125,
+    "initial_kl": 10.789925575256348,
+    "path_kl": 826.1943359375
+  },
+  {
+    "step": 287,
+    "loss": 3605.721435546875,
+    "negative_log_likelihood": 2602.166015625,
+    "initial_kl": 10.492517471313477,
+    "path_kl": 993.0629272460938
+  },
+  {
+    "step": 288,
+    "loss": 3901.16748046875,
+    "negative_log_likelihood": 2821.472412109375,
+    "initial_kl": 10.787114143371582,
+    "path_kl": 1068.9080810546875
+  },
+  {
+    "step": 289,
+    "loss": 4065.820068359375,
+    "negative_log_likelihood": 3245.107666015625,
+    "initial_kl": 10.292930603027344,
+    "path_kl": 810.4195556640625
+  },
+  {
+    "step": 290,
+    "loss": 3858.415771484375,
+    "negative_log_likelihood": 3135.671630859375,
+    "initial_kl": 10.223936080932617,
+    "path_kl": 712.5201416015625
+  },
+  {
+    "step": 291,
+    "loss": 3852.544921875,
+    "negative_log_likelihood": 3020.796142578125,
+    "initial_kl": 10.501474380493164,
+    "path_kl": 821.2474365234375
+  },
+  {
+    "step": 292,
+    "loss": 3364.541015625,
+    "negative_log_likelihood": 2608.869873046875,
+    "initial_kl": 10.580883026123047,
+    "path_kl": 745.0901489257812
+  },
+  {
+    "step": 293,
+    "loss": 3101.69384765625,
+    "negative_log_likelihood": 2404.54248046875,
+    "initial_kl": 10.415404319763184,
+    "path_kl": 686.7360229492188
+  },
+  {
+    "step": 294,
+    "loss": 3222.275146484375,
+    "negative_log_likelihood": 2523.64892578125,
+    "initial_kl": 10.627781867980957,
+    "path_kl": 687.9983520507812
+  },
+  {
+    "step": 295,
+    "loss": 4096.17529296875,
+    "negative_log_likelihood": 3218.908447265625,
+    "initial_kl": 10.250387191772461,
+    "path_kl": 867.0166625976562
+  },
+  {
+    "step": 296,
+    "loss": 4766.75732421875,
+    "negative_log_likelihood": 3774.591552734375,
+    "initial_kl": 10.359519004821777,
+    "path_kl": 981.8062133789062
+  },
+  {
+    "step": 297,
+    "loss": 3696.044921875,
+    "negative_log_likelihood": 2806.255859375,
+    "initial_kl": 10.115854263305664,
+    "path_kl": 879.67333984375
+  },
+  {
+    "step": 298,
+    "loss": 4352.11328125,
+    "negative_log_likelihood": 3601.315185546875,
+    "initial_kl": 10.87823486328125,
+    "path_kl": 739.9200439453125
+  },
+  {
+    "step": 299,
+    "loss": 3367.04296875,
+    "negative_log_likelihood": 2599.539794921875,
+    "initial_kl": 10.488790512084961,
+    "path_kl": 757.0144653320312
+  },
+  {
+    "step": 300,
+    "loss": 3958.81103515625,
+    "negative_log_likelihood": 3028.215087890625,
+    "initial_kl": 10.735151290893555,
+    "path_kl": 919.8609008789062
+  }
+]

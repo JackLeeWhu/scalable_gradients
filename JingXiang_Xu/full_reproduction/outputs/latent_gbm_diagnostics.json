@@ -1,0 +1,16 @@
+{
+  "dataset": "gbm",
+  "context_dim": 1,
+  "training_paths_checked": 16,
+  "posterior_mean_train_mse": 0.0012065064347552834,
+  "empirical_data_terminal_variance": [
+    0.028330517932772636
+  ],
+  "learned_prior_terminal_variance_independent_z0": [
+    0.024696120992302895
+  ],
+  "learned_prior_terminal_variance_fixed_z0": [
+    0.0020251923706382513
+  ],
+  "note": "These are descriptive diagnostics on training paths, not held-out generalization metrics."
+}

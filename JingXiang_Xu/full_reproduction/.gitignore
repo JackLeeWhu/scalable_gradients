@@ -1,0 +1,12 @@
+data/*.mat
+**/*.npz
+**/*checkpoint.pt
+outputs/*.log
+outputs/*_smoke/
+outputs/mocap_full_smoke*/
+outputs/mocap_full_kl0001_pilot/
+outputs/mocap_prediction.png
+outputs/mocap_report.json
+outputs/mocap_full_400/mocap_prediction.png
+__pycache__/
+*.pyc
