@@ -1,0 +1,23 @@
+{
+  "seed": 16561,
+  "prior_samples": 512,
+  "data_samples": 1024,
+  "coordinate": "normalized Lorenz x at t=1",
+  "data_negative_fraction": 0.51171875,
+  "prior_negative_fraction": 0.232421875,
+  "data_terminal_quantiles": [
+    -0.8728123605251312,
+    -0.8236614763736725,
+    -0.7101098299026489,
+    0.82208152115345,
+    0.8731295883655548
+  ],
+  "prior_terminal_quantiles": [
+    -0.5419837832450867,
+    0.04696405678987503,
+    0.6378801763057709,
+    0.9841837882995605,
+    1.2319268822669986
+  ],
+  "note": "A fixed-checkpoint, finite-sample prior diagnostic; sign is a proxy for the two Lorenz lobes."
+}

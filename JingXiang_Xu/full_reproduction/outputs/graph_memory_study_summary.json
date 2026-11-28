@@ -1,0 +1,79 @@
+{
+  "settings": {
+    "steps": [
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "seeds": 3,
+    "batch": 64,
+    "dim": 10,
+    "dtype": "float64",
+    "solver": "Milstein",
+    "output_times": [
+      0.0,
+      1.0
+    ],
+    "torch": "2.15.0",
+    "torchsde": "0.2.6",
+    "platform": "macOS-26.2-arm64-arm-64bit-Mach-O"
+  },
+  "metric_note": "Retained forward bytes sum logical sizes of tensors held for backward, not peak RAM or Brownian cache size.",
+  "results": {
+    "backprop": {
+      "median_retained_forward_bytes": [
+        1459264.0,
+        2939072.0,
+        5898688.0,
+        11817920.0,
+        23656384.0,
+        47333312.0
+      ],
+      "median_graph_nodes": [
+        371.0,
+        739.0,
+        1475.0,
+        2947.0,
+        5891.0,
+        11779.0
+      ],
+      "median_cpu_seconds": [
+        0.005179999999999962,
+        0.009816999999999965,
+        0.019736000000000198,
+        0.04445000000000032,
+        0.12185300000000021,
+        0.2467459999999999
+      ]
+    },
+    "adjoint": {
+      "median_retained_forward_bytes": [
+        10336.0,
+        10336.0,
+        10336.0,
+        10336.0,
+        10336.0,
+        10336.0
+      ],
+      "median_graph_nodes": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "median_cpu_seconds": [
+        0.01389499999999999,
+        0.02462300000000006,
+        0.05140100000000003,
+        0.1098110000000001,
+        0.3308909999999998,
+        0.7406129999999997
+      ]
+    }
+  }
+}

@@ -4,15 +4,18 @@
 
 **Scope:** Sections 5 and 7 of [*Scalable Gradients for Stochastic Differential Equations*](https://proceedings.mlr.press/v108/li20i.html), with the [complete supplement](https://proceedings.mlr.press/v108/li20i/li20i-supp.pdf).
 
-This directory contains an independent implementation and evaluation. Section 5 defines the latent SDE model; Section 7 tests numerical gradients and latent SDEs on synthetic and motion-capture data. The resulting figures are generated here, rather than copied from the paper. [RESULTS.md](RESULTS.md) records the methods and findings; [MOCAP_AUDIT.md](MOCAP_AUDIT.md) explains why our motion-capture result differs from Table 2.
+This directory contains Jingxiang Xu's work on the stochastic adjoint, latent SDEs, and experimental integration. Section 5 defines the latent SDE model; Section 7 tests numerical gradients and latent SDEs on synthetic and motion-capture data. The resulting figures are generated here, rather than copied from the paper. [RESULTS.md](RESULTS.md) records the methods and findings; [MOCAP_AUDIT.md](MOCAP_AUDIT.md) explains why our motion-capture result differs from Table 2. The appendix, especially Sections 9.9–9.16, supplies essential model and experiment details.
+
+An earlier [Section 3 GBM gradient check](../REPORT_SECTION.md) independently verifies the discrete Euler sensitivities, the exact GBM gradient, and TorchSDE's direct and adjoint outputs. This folder extends that check to the paper's three numerical examples and to latent SDE experiments.
 
 ## Deliverables
 
 | Paper result | Local artifact | Reproduction status |
 |---|---|---|
 | Section 7.1, Figure 4(a–c) | [Gradient error](outputs/numerical_study.png), [adaptive cost](outputs/adaptive_study.png), [CPU comparison](outputs/efficiency_study.png) | Independent experiments reproduce the qualitative error–cost relationships. The paper does not provide the random draws and full solver settings needed to reproduce its numerical points. |
+| Adjoint memory mechanism | [Autograd graph growth](outputs/graph_memory_study.png) | Direct backpropagation retains a graph that grows with solver steps; the adjoint's retained forward graph remains constant in this terminal-loss experiment. This is a graph-retention measurement, not total RAM. |
 | Supplementary Figure 7 | [Six-panel numerical study](outputs/supplement_figure7_style.png) | Independent versions of Examples 1 and 3, with corrections to the supplement's inconsistent printed formulas documented in RESULTS.md. |
-| Section 7.2, Figure 5 and Supplementary Figures 8–9 | [Lorenz](outputs/lorenz_context1/latent_lorenz_figure.png), [extended Lorenz](outputs/lorenz_context1/latent_lorenz_extended_figure.png), [GBM](outputs/latent_gbm_figure.png) | New synthetic data and independently trained latent SDEs reproduce the experimental workflow and qualitative displays. |
+| Section 7.2, Figure 5 and Supplementary Figures 8–9 | [Lorenz](outputs/lorenz_context1/latent_lorenz_figure.png), [mode check](outputs/lorenz_context1/lorenz_mode_check.png), [extended Lorenz](outputs/lorenz_context1/latent_lorenz_extended_figure.png), [GBM](outputs/latent_gbm_figure.png) | New synthetic data and independently trained latent SDEs reproduce the workflow and reconstructions. The learned Lorenz prior undercovers one of the generated data's two modes. |
 | Section 7.3, Table 2 | [Mocap forecast](outputs/mocap_full_400/mocap_prediction_posterior.png), [diagnostic forecast](outputs/mocap_diagnostics/fixedstd1_no_time_full300/mocap_prediction_posterior.png) | The data split and 297-frame evaluation were reproduced; the published test MSE of 4.03 was not. |
 
 ## Data and implementation
@@ -30,6 +33,7 @@ python3 -m pip install -r requirements.txt
 python3 numerical_study.py
 python3 adaptive_study.py
 python3 efficiency_study.py
+python3 graph_memory_study.py
 python3 supplement_examples_1_3.py
 python3 generate_data.py
 ```
@@ -45,6 +49,7 @@ python3 train_synthetic_latent_sde.py lorenz --iterations 300 --batch-size 64 --
 python3 render_extended_lorenz.py --output-dir outputs/lorenz_context1
 python3 evaluate_synthetic.py gbm
 python3 evaluate_synthetic.py lorenz --output-dir outputs/lorenz_context1
+python3 lorenz_mode_check.py
 ```
 
 With `data/mocap35.mat` in place, reproduce the full-length mocap baseline and the two diagnostic models:
