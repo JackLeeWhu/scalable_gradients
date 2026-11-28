@@ -82,7 +82,7 @@ def main() -> None:
     mocap_path = Path(__file__).parent / "data" / "mocap35.mat"
     if not mocap_path.exists():
         raise FileNotFoundError(
-            f"Download mocap35.mat from the ODE2VAE data link in README_CN.md "
+            f"Download mocap35.mat from the ODE2VAE data link in README.md "
             f"and place it at {mocap_path}"
         )
     mocap = loadmat(mocap_path)

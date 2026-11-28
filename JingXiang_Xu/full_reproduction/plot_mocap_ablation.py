@@ -15,10 +15,9 @@ import matplotlib.pyplot as plt
 ROOT = Path(__file__).parent / "outputs" / "mocap_diagnostics"
 RUNS = [
     ("logvar_both_50", "learned variance, raw data"),
+    ("logvar_no_time_50", "learned variance, no time input"),
     ("learned_std_cap2_50", "learned variance, std ≤ 2"),
     ("fixedstd1_50", "fixed std = 1"),
-    ("standardized_logvar_50", "learned variance, standardized input"),
-    ("variance_warmup30_50", "30-step fixed-variance warmup"),
 ]
 
 

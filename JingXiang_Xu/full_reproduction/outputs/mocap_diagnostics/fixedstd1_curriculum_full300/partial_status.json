@@ -1,8 +1,0 @@
-{
-  "status": "stopped_after_200_iteration_pilot",
-  "frames_at_step_200": 300,
-  "best_observed_validation_mse": 26.973295211791992,
-  "best_observed_step": 150,
-  "reason": "After reaching the full 300-frame horizon, validation MSE remained worse than the same-seed fixed-variance run trained on 300 frames from step 1. No test MSE was used for this decision.",
-  "strict_400_iteration_result": false
-}
