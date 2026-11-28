@@ -1,0 +1,57 @@
+{
+  "seed": 15600,
+  "frames": 300,
+  "rows": [
+    {
+      "frame": 2,
+      "latent_mean_absolute_value": 41.062129974365234,
+      "decoder_second_hidden_near_zero_fraction": 0.800000011920929,
+      "decoder_output_mean_absolute_value": 1.90047025680542,
+      "observation_mean_absolute_value": 2.7122232913970947
+    },
+    {
+      "frame": 49,
+      "latent_mean_absolute_value": 58.709957122802734,
+      "decoder_second_hidden_near_zero_fraction": 0.7583333253860474,
+      "decoder_output_mean_absolute_value": 2.2165098190307617,
+      "observation_mean_absolute_value": 2.90108585357666
+    },
+    {
+      "frame": 99,
+      "latent_mean_absolute_value": 69.08380889892578,
+      "decoder_second_hidden_near_zero_fraction": 0.875,
+      "decoder_output_mean_absolute_value": 3.010164499282837,
+      "observation_mean_absolute_value": 3.535052537918091
+    },
+    {
+      "frame": 149,
+      "latent_mean_absolute_value": 75.99830627441406,
+      "decoder_second_hidden_near_zero_fraction": 0.925000011920929,
+      "decoder_output_mean_absolute_value": 1.7834392786026,
+      "observation_mean_absolute_value": 2.6926331520080566
+    },
+    {
+      "frame": 199,
+      "latent_mean_absolute_value": 77.58869171142578,
+      "decoder_second_hidden_near_zero_fraction": 0.8166666626930237,
+      "decoder_output_mean_absolute_value": 1.9251203536987305,
+      "observation_mean_absolute_value": 3.443160057067871
+    },
+    {
+      "frame": 249,
+      "latent_mean_absolute_value": 74.8432846069336,
+      "decoder_second_hidden_near_zero_fraction": 0.7416666746139526,
+      "decoder_output_mean_absolute_value": 2.7382280826568604,
+      "observation_mean_absolute_value": 3.377678871154785
+    },
+    {
+      "frame": 299,
+      "latent_mean_absolute_value": 68.47396850585938,
+      "decoder_second_hidden_near_zero_fraction": 0.8833333253860474,
+      "decoder_output_mean_absolute_value": 2.45290470123291,
+      "observation_mean_absolute_value": 3.0942134857177734
+    }
+  ],
+  "latent_step_change_after_frame_200": 1.1641161441802979,
+  "decoded_step_change_after_frame_200": 0.13871364295482635
+}

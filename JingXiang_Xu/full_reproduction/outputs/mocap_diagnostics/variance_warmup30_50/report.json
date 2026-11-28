@@ -1,0 +1,124 @@
+{
+  "settings": {
+    "name": "variance_warmup30_50",
+    "frames": 50,
+    "iterations": 100,
+    "q_logvar": true,
+    "observation_logvar": true,
+    "fixed_observation_std": null,
+    "variance_warmup_iterations": 30,
+    "no_time_input": false,
+    "kl_weight": 0.1,
+    "anneal_iterations": 200,
+    "curriculum_start_frames": null,
+    "curriculum_full_at": 200,
+    "clip_norm": 10.0,
+    "learning_rate": 0.01,
+    "observation_dt": 0.1,
+    "dt": 0.02,
+    "seed": 5600,
+    "validation_samples": 3,
+    "evaluation_samples": 20,
+    "adjoint": true,
+    "output_dir": "/Users/binbin2/Library/CloudStorage/OneDrive-CornellUniversity/Cornell/courses/ORIE 5600/project/ORIE5600_GBM_project/JingXiang_Xu/full_reproduction/outputs/mocap_diagnostics/variance_warmup30_50"
+  },
+  "parameter_count": 11845,
+  "best_step": 90,
+  "best_validation_mse": 20.293298721313477,
+  "metrics": {
+    "Xtr": {
+      "sample_mse": 16.895219802856445,
+      "mean_prediction_mse": 16.886898040771484,
+      "zero_baseline_mse": 30.979228973388672
+    },
+    "Xval": {
+      "sample_mse": 20.6119384765625,
+      "mean_prediction_mse": 20.59975242614746,
+      "zero_baseline_mse": 30.706092834472656
+    },
+    "Xtest": {
+      "sample_mse": 21.482646942138672,
+      "mean_prediction_mse": 21.474163055419922,
+      "zero_baseline_mse": 31.939178466796875
+    }
+  },
+  "history": [
+    {
+      "step": 1,
+      "train_frames": 50,
+      "loss": 41168.47265625,
+      "gradient_norm_before_clip": 2238.4384765625,
+      "validation_mse": 30.959707260131836
+    },
+    {
+      "step": 10,
+      "train_frames": 50,
+      "loss": 35003.29296875,
+      "gradient_norm_before_clip": 35712.23828125,
+      "validation_mse": 32.09889602661133
+    },
+    {
+      "step": 20,
+      "train_frames": 50,
+      "loss": 25540.435546875,
+      "gradient_norm_before_clip": 10297.5458984375,
+      "validation_mse": 27.17417335510254
+    },
+    {
+      "step": 30,
+      "train_frames": 50,
+      "loss": 17298.9609375,
+      "gradient_norm_before_clip": 13543.75,
+      "validation_mse": 21.994535446166992
+    },
+    {
+      "step": 40,
+      "train_frames": 50,
+      "loss": 6116.4111328125,
+      "gradient_norm_before_clip": 6050.07861328125,
+      "validation_mse": 23.773399353027344
+    },
+    {
+      "step": 50,
+      "train_frames": 50,
+      "loss": 4279.78662109375,
+      "gradient_norm_before_clip": 5185.64453125,
+      "validation_mse": 22.342803955078125
+    },
+    {
+      "step": 60,
+      "train_frames": 50,
+      "loss": 3771.757080078125,
+      "gradient_norm_before_clip": 8420.64453125,
+      "validation_mse": 21.60437774658203
+    },
+    {
+      "step": 70,
+      "train_frames": 50,
+      "loss": 3572.4248046875,
+      "gradient_norm_before_clip": 15073.6494140625,
+      "validation_mse": 22.19325065612793
+    },
+    {
+      "step": 80,
+      "train_frames": 50,
+      "loss": 3307.0927734375,
+      "gradient_norm_before_clip": 10719.1025390625,
+      "validation_mse": 21.82535171508789
+    },
+    {
+      "step": 90,
+      "train_frames": 50,
+      "loss": 3036.920654296875,
+      "gradient_norm_before_clip": 9113.638671875,
+      "validation_mse": 20.293298721313477
+    },
+    {
+      "step": 100,
+      "train_frames": 50,
+      "loss": 3066.94775390625,
+      "gradient_norm_before_clip": 30392.912109375,
+      "validation_mse": 20.54424285888672
+    }
+  ]
+}

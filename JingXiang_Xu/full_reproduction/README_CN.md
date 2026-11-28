@@ -18,6 +18,8 @@
 
 `data/mocap35.mat` 是第三方预处理数据，保留在本地，不提交进 GitHub。可从 [ODE2VAE 作者公开的文件](https://drive.google.com/file/d/1adqzHEXaGDVObSKbJgT5HBdoZkeMZ8S3/view) 下载到 `data/mocap35.mat`。数据 SHA-256、形状及实验参数在 `outputs/data_manifest.json`。
 
+针对 mocap 未达到 Table 2 数值的原因，另见 `MOCAP_REPRO_AUDIT_CN.md`：逐条核对附录 9.15/9.16、Figure 10 和 ODE2VAE 源码，并提供可学习方差、固定/限制方差、KL、梯度裁剪、标准化及训练长度的同数据对照。短序列的诊断曲线在 `outputs/mocap_diagnostics/mocap_ablation_50.png`；它只覆盖未来 47 帧，不可与论文的 297 帧结果比较。
+
 ## 与论文一致及不一致的地方
 
 - 两个合成数据集的路径数、观测时间、GBM 参数、Lorenz 参数和观测噪声按附录 9.13 设置；由于作者没有发布具体随机抽样，GBM 固定新种子 5600，Lorenz 固定新种子 5601。Lorenz 原文没有给出生成数据的数值积分步长，这里用 Euler–Maruyama 的 0.005 内部步长。
@@ -35,6 +37,8 @@
 正文 Figure 4 和补充 Figure 7 的固定步长实验都显示数值梯度误差随步长缩小而下降；adaptive SRK 正向加 adaptive Milstein adjoint 反向的总函数求值数与误差呈预期的计算量交换。具体数值见 `RESULTS_FOR_TEAM_CN.md` 和对应 CSV。正文 Figure 5、补充 Figure 8、9 的模型图已由重新生成的数据和独立训练得到，能讨论后验重建与先验样本的定性行为。
 
 **Table 2 未复现作者性能**：同一 CMU 文件、300 帧、400 次训练、50 次测试采样下，我们的最佳验证 MSE 为 `31.27`。固定新种子下，编码前三帧后使用后验漂移预测的测试 MSE 为 `32.691 ± 0.011`，改用生成模型的先验漂移为 `32.881 ± 0.019`；论文为 `4.03 ± 0.20`。本机零预测基线约 `33.67`，说明当前模型的预测只略好于零预测。两个 95% t 区间只描述固定模型下 50 次预测样本的 Monte Carlo 波动，不能作为与论文区间同口径的复现。论文没有公开测试时选择哪一个漂移场的实现细节，故同时列出两种。另一个 KL 系数 `0.001` 的 120 次迭代试跑验证 MSE 仍约 `31.86`。模型参数数目、初始化和原论文未发布的训练细节均限制了严格复现。
+
+继续核对附录后的完整诊断显示两层失败原因。第一版 decoder 的可学习观测方差增大，训练重建仍约 `32.28`，造成似然下降但预测均值接近零。将标准差固定为 1 后，完整 297 帧的后验测试 MSE 降到 **`23.258 ± 0.033`**，但后半段 decoder 的 Softplus 隐层饱和，预测再次变平。再去掉 8 个时间输入后，登记参数数目与附录所写的 `11,605` 一致，完整后验测试 MSE 为 **`16.335 ± 0.257`**，后段仍有周期变化；不过它的验证 MSE `24.93` 高于带时间输入版的 `18.77`。这些都是明确标注的诊断改动，尤其固定方差与附录引用的 ODE2VAE 似然不同，不能将 `16.335` 冒充原文的 `4.03`。逐项依据、短序列消融、完整预测图和误差随帧变化的图见 `MOCAP_REPRO_AUDIT_CN.md`。
 
 检索到 [另一个公开复现尝试](https://github.com/nkiyohara/latent-sde-mocap) 报告约 `9.0`，但其 `train_mocap.py` 将整条序列做成每个时刻的三帧滑动窗口，测试时编码器仍读取后续帧。这个信息量与“仅给前三帧，预测其余 297 帧”的 Table 2 任务不同，因此没有采用它的分数或代码作为严格复现依据。
 
@@ -60,6 +64,13 @@ python3 evaluate_synthetic.py lorenz --output-dir outputs/lorenz_context1
 python3 train_mocap_latent_sde.py --frames 300 --iterations 400 --dt 0.02 --eval-samples 50 --adjoint --device cpu --output-dir outputs/mocap_full_400
 python3 evaluate_mocap_checkpoint.py --output-dir outputs/mocap_full_400 --samples 50 --drift posterior
 python3 evaluate_mocap_checkpoint.py --output-dir outputs/mocap_full_400 --samples 50 --drift prior
+# 定位失败原因的完整诊断；固定观测方差是有意的实验改动
+python3 diagnose_mocap.py --name fixedstd1_full300 --frames 300 --iterations 400 --q-logvar --fixed-observation-std 1 --adjoint --evaluation-samples 50
+python3 diagnose_mocap.py --name fixedstd1_no_time_full300 --frames 300 --iterations 400 --q-logvar --fixed-observation-std 1 --no-time-input --adjoint --evaluation-samples 50
+python3 evaluate_mocap_diagnostic.py outputs/mocap_diagnostics/fixedstd1_full300 --samples 50 --drift posterior
+python3 evaluate_mocap_diagnostic.py outputs/mocap_diagnostics/fixedstd1_no_time_full300 --samples 50 --drift posterior
+python3 inspect_mocap_dynamics.py outputs/mocap_diagnostics/fixedstd1_full300
+python3 plot_mocap_ablation.py
 # 短试跑仅用于检查程序是否可执行，不能与 Table 2 比较
 python3 train_mocap_latent_sde.py --frames 50 --iterations 50 --eval-samples 10 --adjoint --device cpu
 ```

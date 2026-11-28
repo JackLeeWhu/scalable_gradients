@@ -1,0 +1,25 @@
+{
+  "frames": 300,
+  "predicted_frames": 297,
+  "test_sequences": 4,
+  "coordinates": 50,
+  "samples": 50,
+  "seed": 15600,
+  "drift": "prior",
+  "test_mse": 24.87212562561035,
+  "mc_95_percent_t_halfwidth": 0.10378906796747148,
+  "mean_prediction_mse": 24.74112319946289,
+  "zero_prediction_mse": 33.67472457885742,
+  "per_sequence_mse": [
+    38.950687408447266,
+    15.26291561126709,
+    21.06927490234375,
+    24.206571578979492
+  ],
+  "horizon_blocks_mse": {
+    "frames_3_to_49": 10.153048515319824,
+    "frames_50_to_99": 8.945813179016113,
+    "frames_100_to_199": 22.160205841064453,
+    "frames_200_to_299": 42.465179443359375
+  }
+}

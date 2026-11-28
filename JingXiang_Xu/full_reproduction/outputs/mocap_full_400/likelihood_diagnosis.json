@@ -1,0 +1,12 @@
+{
+  "run": "/Users/binbin2/Library/CloudStorage/OneDrive-CornellUniversity/Cornell/courses/ORIE 5600/project/ORIE5600_GBM_project/JingXiang_Xu/full_reproduction/outputs/mocap_full_400",
+  "frames": 300,
+  "seed": 25600,
+  "negative_log_likelihood": 23030.830078125,
+  "initial_state_kl": 32.82353973388672,
+  "path_kl": 136.29531860351562,
+  "train_reconstruction_mse": 32.28341293334961,
+  "mean_observation_std": 3.6215150356292725,
+  "maximum_observation_std": 20.08553695678711,
+  "mean_initial_state_std": 0.020042220130562782
+}

@@ -1,0 +1,8 @@
+{
+  "status": "stopped_after_110_iteration_pilot",
+  "frames": 300,
+  "best_observed_validation_mse": 31.86618423461914,
+  "best_observed_step": 40,
+  "reason": "Validation MSE stayed near the zero-forecast baseline through iteration 110. The fixed-standard-deviation full-horizon run had already improved below 21, so compute was redirected to full-length and parameter-count diagnostics. No test MSE was used for this decision.",
+  "strict_400_iteration_result": false
+}
